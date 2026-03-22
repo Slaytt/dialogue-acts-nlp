@@ -15,7 +15,7 @@ import pandas as pd
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
-from src.preprocessing.clean_text import nettoyer_texte
+from src.preprocessing.clean_text import nettoyer_texte, MOTS_A_GARDER
 
 
 # =============================================================================
@@ -136,6 +136,10 @@ if __name__ == "__main__":
     # --- Chargement des outils ---
     pipeline = charger_modele()
     nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
+    # Réhabilitation des stop words discriminants (identique à l'entraînement)
+    for mot in MOTS_A_GARDER:
+        nlp.vocab[mot].is_stop = False
+    nlp.vocab["n't"].is_stop = False
 
     # --- Répliques de test représentatives ---
     # On teste sur des répliques typiques pour valider que le modèle a du sens.
