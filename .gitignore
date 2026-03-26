@@ -33,9 +33,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Claude Code
-CLAUDE.md
-
 # Logs
 *.log
 logs/
