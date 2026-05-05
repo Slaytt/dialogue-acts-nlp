@@ -1,6 +1,6 @@
 # Projet TAL — Analyse des Biais de Genre au Cinéma
 
-> Projet de Traitement Automatique du Langage — M1 Informatique
+> Projet de Traitement Automatique du Langage 
 
 **Auteurs :** Sasha Sutton & Ranzi Téo
 
@@ -185,9 +185,3 @@ LinearSVC    LDA
 | 9 | Argent / Morale | money, good, sir, bad, lie |
 | 10 | Violence / Confrontation | kill, fuck, care, need, talk |
 | 11 | Apparences / Rencontres | like, look, meet, ask, mean |
-
----
-
-## Licence
-
-Projet académique — M1 Informatique, 2024-2025.
