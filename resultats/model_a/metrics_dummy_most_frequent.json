@@ -1,0 +1,17 @@
+{
+  "run": "dummy_most_frequent",
+  "accuracy": 0.4291843220338983,
+  "f1_macro": 0.06673337533508752,
+  "f1_weighted": 0.25776826605200887,
+  "f1_par_classe": {
+    "ACCORD": 0.0,
+    "AUTRE_DIALOGUE": 0.0,
+    "BACKCHANNEL": 0.0,
+    "DESACCORD": 0.0,
+    "OPINION": 0.0,
+    "ORDRE": 0.0,
+    "POLITESSE": 0.0,
+    "QUESTION": 0.0,
+    "STATEMENT": 0.6006003780157877
+  }
+}

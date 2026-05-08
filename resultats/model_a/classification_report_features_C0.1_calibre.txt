@@ -1,0 +1,15 @@
+                precision    recall  f1-score   support
+
+        ACCORD      0.427     0.365     0.394      2788
+AUTRE_DIALOGUE      0.670     0.284     0.399       735
+   BACKCHANNEL      0.783     0.804     0.793      8808
+     DESACCORD      0.585     0.587     0.586       523
+       OPINION      0.477     0.491     0.484      6066
+         ORDRE      0.288     0.319     0.303       160
+     POLITESSE      0.925     0.557     0.695       555
+      QUESTION      0.805     0.725     0.763      1919
+     STATEMENT      0.761     0.799     0.780     16206
+
+      accuracy                          0.696     37760
+     macro avg      0.636     0.548     0.577     37760
+  weighted avg      0.694     0.696     0.693     37760

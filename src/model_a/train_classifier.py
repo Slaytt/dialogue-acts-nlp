@@ -1,11 +1,11 @@
-# Entraînement du Modèle A — Classification des Dialogue Acts
-# Pipeline : SWDA → clean_text → TF-IDF + feature "?" → LinearSVC
+"""
+Entraînement du Modèle A — TF-IDF + features explicites + LinearSVC.
+Utilise le cache (cache_dataset.py) et les features supplémentaires (features.py).
+"""
 
 import os
-import sys
 
 import joblib
-from datasets import load_dataset
 from sklearn.compose import ColumnTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import classification_report
@@ -13,76 +13,62 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
-from src.preprocessing.clean_text import preparer_dataset_swda
+from src.preprocessing.cache_dataset import charger_dataset_clean
+from src.preprocessing.features import NOMS_FEATURES, ajouter_features_au_df
 
-# ÉTAPE 1 : Chargement et prétraitement
-print("=" * 60)
-print("ÉTAPE 1 : Chargement et prétraitement du dataset SWDA")
-print("=" * 60)
+RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-dataset = load_dataset("swda", trust_remote_code=True)
-df = preparer_dataset_swda(dataset)
-df["contient_point_interrogation"] = df["text"].apply(
-    lambda x: 1 if "?" in str(x) else 0
-)
 
-# ÉTAPE 2 : Split train/test
-print("\n" + "=" * 60)
-print("ÉTAPE 2 : Séparation entraînement / test (80% / 20%)")
-print("=" * 60)
+def construire_pipeline(C=1.0, noms_features=None):
+    if noms_features is None:
+        noms_features = NOMS_FEATURES
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("tfidf",
+             TfidfVectorizer(ngram_range=(1, 2), max_features=50000, sublinear_tf=True),
+             "texte_nettoye"),
+            ("features_supp", "passthrough", noms_features),
+        ]
+    )
+    return Pipeline([
+        ("preprocessor", preprocessor),
+        ("clf", LinearSVC(class_weight="balanced", max_iter=5000, C=C, random_state=42)),
+    ])
 
-X = df[["texte_nettoye", "contient_point_interrogation"]]
-y = df["macro_classe"]
 
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y
-)
+def preparer_donnees(df):
+    """Charge le cache, ajoute les features, retourne X (DataFrame), y."""
+    df = ajouter_features_au_df(df)
+    X = df[["texte_nettoye"] + NOMS_FEATURES]
+    y = df["macro_classe"]
+    return X, y
 
-print(f"Taille entraînement : {len(X_train)} répliques")
-print(f"Taille test         : {len(X_test)} répliques")
 
-# ÉTAPE 3 : Construction du pipeline
-print("\n" + "=" * 60)
-print("ÉTAPE 3 : Construction du pipeline TF-IDF + LinearSVC")
-print("=" * 60)
+def entrainer(C=1.0, nom_run="features_v1"):
+    print(f"=== Entraînement : {nom_run} (C={C}) ===\n")
 
-preprocessor = ColumnTransformer(
-    transformers=[
-        ("tfidf", TfidfVectorizer(ngram_range=(1, 2), max_features=50000, sublinear_tf=True),
-         "texte_nettoye"),
-        ("features_supp", "passthrough", ["contient_point_interrogation"]),
-    ]
-)
+    df = charger_dataset_clean()
+    X, y = preparer_donnees(df)
 
-pipeline = Pipeline([
-    ("preprocessor", preprocessor),
-    ("clf", LinearSVC(class_weight="balanced", max_iter=5000)),
-])
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
+    print(f"Train : {len(X_train)} | Test : {len(X_test)}")
 
-print("Pipeline créé : TfidfVectorizer(ngrams 1-2, 50k features) → LinearSVC(balanced)")
+    pipeline = construire_pipeline(C=C)
+    print(f"Entraînement (C={C})...")
+    pipeline.fit(X_train, y_train)
 
-# ÉTAPE 4 : Entraînement
-print("\n" + "=" * 60)
-print("ÉTAPE 4 : Entraînement du modèle...")
-print("=" * 60)
+    print("\n--- Évaluation rapide sur le test set ---")
+    y_pred = pipeline.predict(X_test)
+    print(classification_report(y_test, y_pred, digits=3))
 
-pipeline.fit(X_train, y_train)
-print("Entraînement terminé !")
+    chemin = os.path.join(RACINE, "src", "model_a", f"modele_{nom_run}.joblib")
+    joblib.dump(pipeline, chemin)
+    print(f"\nModèle sauvegardé : {chemin}")
 
-# ÉTAPE 5 : Évaluation
-print("\n" + "=" * 60)
-print("ÉTAPE 5 : Évaluation sur le jeu de test")
-print("=" * 60)
+    return pipeline
 
-y_pred = pipeline.predict(X_test)
-print(classification_report(y_test, y_pred))
 
-# ÉTAPE 6 : Sauvegarde
-print("\n" + "=" * 60)
-print("ÉTAPE 6 : Sauvegarde du modèle")
-print("=" * 60)
-
-chemin_modele = os.path.join(os.path.dirname(__file__), "modele_dialogue_acts.joblib")
-joblib.dump(pipeline, chemin_modele)
-print(f"Modèle sauvegardé dans : {chemin_modele}")
+if __name__ == "__main__":
+    entrainer(C=1.0, nom_run="features_v3_amp10")

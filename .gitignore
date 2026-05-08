@@ -36,3 +36,12 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Claude
+.claude/
+CLAUDE.md
+*claude*
+*CLAUDE*
+
+# Résultats lourds
+resultats/resultats_complets.csv
