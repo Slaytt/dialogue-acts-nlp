@@ -1,7 +1,5 @@
-"""
-Évaluation du Modèle A sur le test set SWDA.
-Reproduit le split de train_classifier.py et persiste les métriques.
-"""
+# Évalue un modèle persisté sur le test set SWDA.
+# Reproduit le split via random_state=42 + stratify, puis sort métriques + matrice de confusion.
 
 import json
 import os
@@ -26,7 +24,6 @@ DOSSIER_SORTIE = os.path.join(RACINE, "resultats", "model_a")
 
 
 def reproduire_split(df):
-    """Recrée X_test, y_test à l'identique de train_classifier.py."""
     df = ajouter_features_au_df(df)
     X = df[["texte_nettoye"] + NOMS_FEATURES]
     y = df["macro_classe"]
@@ -110,10 +107,6 @@ def evaluer(nom_run="baseline", chemin_modele=None):
     )
 
     print(f"\nRésultats persistés dans : {DOSSIER_SORTIE}/")
-    print(f"  - metrics_{nom_run}.json")
-    print(f"  - classification_report_{nom_run}.txt")
-    print(f"  - confusion_matrix_{nom_run}.png")
-
     return metrics
 
 

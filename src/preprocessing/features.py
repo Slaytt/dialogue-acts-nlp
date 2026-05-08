@@ -1,13 +1,10 @@
-"""
-Features supplémentaires pour le Modèle A.
-Calculées par regex sur le texte brut (rapide, ~1-2s pour 188k lignes).
-Cible : améliorer ORDRE, DESACCORD, QUESTION, POLITESSE.
-"""
+# Features booléennes ciblant ORDRE, QUESTION, DESACCORD, POLITESSE.
+# Calculées par regex sur le texte brut (post nettoyage des marqueurs SWDA).
 
 import re
+
 import pandas as pd
 
-# Premiers mots (lemmes) caractéristiques
 VERBES_ACTION = {
     "get", "go", "take", "give", "stop", "come", "look", "listen",
     "sit", "stand", "wait", "tell", "put", "let", "show", "open",
@@ -23,7 +20,6 @@ NEGATIONS_DEBUT = {"no", "not", "nope", "nah", "never"}
 
 
 def nettoyer_marqueurs_swda(texte):
-    """Retire {F ...}, [...], <<...>>, <...>, slash final."""
     texte = re.sub(r"\{[^}]*\}", "", texte)
     texte = re.sub(r"[\[\]]", "", texte)
     texte = re.sub(r"<<[^>]*>>", "", texte)
@@ -33,7 +29,6 @@ def nettoyer_marqueurs_swda(texte):
 
 
 def extraire_features(texte_brut):
-    """Retourne un dict de features booléennes (0/1) pour une réplique."""
     texte = nettoyer_marqueurs_swda(str(texte_brut))
     texte_lower = texte.lower()
 
@@ -53,9 +48,9 @@ def extraire_features(texte_brut):
     }
 
 
-# Liste ordonnée des noms de features (à utiliser dans le ColumnTransformer)
+# Ordre fixe pour rester cohérent avec le ColumnTransformer
 NOMS_FEATURES = [
-    "contient_point_interrogation",  # historique, conservée
+    "contient_point_interrogation",
     "feat_exclamation",
     "feat_now",
     "feat_verbe_action",
@@ -67,8 +62,8 @@ NOMS_FEATURES = [
     "feat_politesse",
 ]
 
+
 def ajouter_features_au_df(df):
-    """Enrichit un DataFrame (avec colonne 'text') avec toutes les features supplémentaires."""
     df = df.copy()
     df["contient_point_interrogation"] = df["text"].apply(
         lambda x: 1 if "?" in str(x) else 0

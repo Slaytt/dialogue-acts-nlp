@@ -1,7 +1,6 @@
-"""
-Calibration de seuil (Option D) sur le pipeline TF-IDF + features + LinearSVC.
-Pour chaque classe, ajoute un biais beta_c au score, optimisé pour maximiser F1-macro global.
-"""
+# Calibration de seuil par coordinate descent.
+# Sur le pipeline TF-IDF + features + LinearSVC, ajoute un biais beta_c par classe
+# au decision_function avant l'argmax, optimisé pour maximiser F1-macro sur un set de validation.
 
 import json
 import os
@@ -25,7 +24,6 @@ DOSSIER_SORTIE = os.path.join(RACINE, "resultats", "model_a")
 
 
 def split_train_val_test(df, noms_features):
-    """Découpe en train (64%) + val (16%) + test (20%)."""
     df = ajouter_features_au_df(df)
     X = df[["texte_nettoye"] + noms_features]
     y = df["macro_classe"]
@@ -40,10 +38,6 @@ def split_train_val_test(df, noms_features):
 
 
 def calibrer(scores_val, y_val, classes, n_passes=3, pas=0.05, beta_min=-1.0, beta_max=1.0):
-    """
-    Coordinate descent : pour chaque classe c, trouve beta_c qui maximise F1-macro global.
-    Itère n_passes fois pour gérer les couplages entre classes.
-    """
     classe_idx = {c: i for i, c in enumerate(classes)}
     betas = {c: 0.0 for c in classes}
     grille_beta = np.arange(beta_min, beta_max + pas / 2, pas)
@@ -76,7 +70,6 @@ def calibrer(scores_val, y_val, classes, n_passes=3, pas=0.05, beta_min=-1.0, be
 
 
 def predire_avec_betas(pipeline, X, classes, betas):
-    """decision_function + biais par classe + argmax."""
     scores = pipeline.decision_function(X)
     classe_idx = {c: i for i, c in enumerate(classes)}
     scores_mod = scores.copy()

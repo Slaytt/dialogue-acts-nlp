@@ -1,8 +1,5 @@
-"""
-Baselines pour le Modèle A.
-Trois baselines : Dummy(most_frequent), Dummy(stratified), LogisticRegression.
-Chaque baseline est entraînée sur les mêmes 80% que LinearSVC, évaluée sur les mêmes 20%.
-"""
+# Trois baselines pour comparer LinearSVC : Dummy(most_frequent), Dummy(stratified), LogReg.
+# Mêmes 80/20 stratifié et même preprocessing TF-IDF + ? que le pipeline principal.
 
 import json
 import os
@@ -22,7 +19,6 @@ DOSSIER_SORTIE = os.path.join(RACINE, "resultats", "model_a")
 
 
 def preparer_split(df):
-    """Split 80/20 stratifié, identique à train_classifier.py et evaluate.py."""
     df = df.copy()
     df["contient_point_interrogation"] = df["text"].apply(
         lambda x: 1 if "?" in str(x) else 0
@@ -33,7 +29,6 @@ def preparer_split(df):
 
 
 def construire_preprocesseur():
-    """Même preprocessing que LinearSVC : TF-IDF (1-2 grammes, 50k feats) + ?."""
     return ColumnTransformer(
         transformers=[
             ("tfidf", TfidfVectorizer(ngram_range=(1, 2), max_features=50000, sublinear_tf=True),
@@ -44,7 +39,6 @@ def construire_preprocesseur():
 
 
 def evaluer_modele(nom, modele, X_train, X_test, y_train, y_test, classes):
-    """Entraîne, prédit, calcule + persiste les métriques pour un modèle."""
     print(f"\n--- Baseline : {nom} ---")
     modele.fit(X_train, y_train)
     y_pred = modele.predict(X_test)
@@ -82,7 +76,6 @@ def main():
 
     resultats = []
 
-    # Baseline 1 — Dummy most_frequent
     pipe = Pipeline([
         ("preprocessor", construire_preprocesseur()),
         ("clf", DummyClassifier(strategy="most_frequent")),
@@ -91,7 +84,6 @@ def main():
         "dummy_most_frequent", pipe, X_train, X_test, y_train, y_test, classes
     ))
 
-    # Baseline 2 — Dummy stratified
     pipe = Pipeline([
         ("preprocessor", construire_preprocesseur()),
         ("clf", DummyClassifier(strategy="stratified", random_state=42)),
@@ -100,25 +92,22 @@ def main():
         "dummy_stratified", pipe, X_train, X_test, y_train, y_test, classes
     ))
 
-    # Baseline 3 — LogisticRegression
     pipe = Pipeline([
         ("preprocessor", construire_preprocesseur()),
-        ("clf", LogisticRegression(class_weight="balanced", max_iter=2000, n_jobs=-1)),
+        ("clf", LogisticRegression(class_weight="balanced", max_iter=2000)),
     ])
     resultats.append(evaluer_modele(
         "logreg_balanced", pipe, X_train, X_test, y_train, y_test, classes
     ))
 
-    # Tableau récapitulatif
     print("\n" + "=" * 70)
-    print("RÉCAP — Comparaison baselines vs LinearSVC (à charger séparément)")
+    print("RÉCAP — Comparaison baselines vs LinearSVC")
     print("=" * 70)
     print(f"{'modèle':<25} {'accuracy':>10} {'F1-macro':>10} {'F1-weighted':>12}")
     print("-" * 70)
     for r in resultats:
         print(f"{r['run']:<25} {r['accuracy']:>10.3f} {r['f1_macro']:>10.3f} {r['f1_weighted']:>12.3f}")
 
-    # Charger la baseline LinearSVC déjà calculée
     chemin_svc = os.path.join(DOSSIER_SORTIE, "metrics_baseline.json")
     if os.path.exists(chemin_svc):
         with open(chemin_svc) as f:

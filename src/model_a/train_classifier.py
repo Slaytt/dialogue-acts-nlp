@@ -1,7 +1,4 @@
-"""
-Entraînement du Modèle A — TF-IDF + features explicites + LinearSVC.
-Utilise le cache (cache_dataset.py) et les features supplémentaires (features.py).
-"""
+# Entraînement du Modèle A : TF-IDF (1-2 grammes) + features explicites + LinearSVC.
 
 import os
 
@@ -37,14 +34,13 @@ def construire_pipeline(C=1.0, noms_features=None):
 
 
 def preparer_donnees(df):
-    """Charge le cache, ajoute les features, retourne X (DataFrame), y."""
     df = ajouter_features_au_df(df)
     X = df[["texte_nettoye"] + NOMS_FEATURES]
     y = df["macro_classe"]
     return X, y
 
 
-def entrainer(C=1.0, nom_run="features_v1"):
+def entrainer(C=1.0, nom_run="features"):
     print(f"=== Entraînement : {nom_run} (C={C}) ===\n")
 
     df = charger_dataset_clean()
@@ -71,4 +67,4 @@ def entrainer(C=1.0, nom_run="features_v1"):
 
 
 if __name__ == "__main__":
-    entrainer(C=1.0, nom_run="features_v3_amp10")
+    entrainer()

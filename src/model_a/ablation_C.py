@@ -1,8 +1,5 @@
-"""
-Ablation de l'hyperparamètre C de LinearSVC.
-Entraîne le pipeline (TF-IDF + features) pour C ∈ {0.1, 1, 10},
-puis évalue chaque variante et compile un tableau comparatif.
-"""
+# Ablation de l'hyperparamètre C de LinearSVC sur le pipeline avec features.
+# Réentraîne et évalue pour C ∈ {0.1, 1, 10}, puis tableau récap.
 
 import json
 import os
@@ -25,7 +22,6 @@ def main():
         metrics = evaluer(nom_run=nom)
         resultats.append(metrics)
 
-    # Récap
     print("\n" + "=" * 70)
     print("RÉCAP — Ablation C (avec features explicites)")
     print("=" * 70)
@@ -43,7 +39,6 @@ def main():
             f"{r['f1_par_classe']['DESACCORD']:>10.3f}"
         )
 
-    # Référence baseline
     chemin_baseline = os.path.join(DOSSIER_SORTIE, "metrics_baseline.json")
     if os.path.exists(chemin_baseline):
         with open(chemin_baseline) as f:
