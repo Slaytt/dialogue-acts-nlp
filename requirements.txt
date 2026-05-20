@@ -5,3 +5,5 @@ pandas
 ipykernel
 datasets==2.18.0
 tqdm
+gensim
+matplotlib
