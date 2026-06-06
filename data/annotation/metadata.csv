@@ -1,0 +1,1151 @@
+annotation_id,source_set,line_id,conv_id,position,perso_emetteur,genre_emetteur,perso_recepteur,genre_recepteur,movie_id,movie_title,movie_year,decennie,n_tokens
+M0000,main,L47823,conv_35214,20,u3752,m,u3763,m,m247,apocalypse now,1979.0,1970,24
+M0001,main,L522297,conv_26368,2,u2851,f,u2856,m,m188,someone to watch over me,1987.0,1980,18
+M0002,main,L497086,conv_25020,2,u2688,f,u2692,m,m175,"sex, lies, and videotape",1989.0,1980,9
+M0003,main,L299995,conv_13499,1,u1457,m,u1456,m,m98,indiana jones and the last crusade,1989.0,1980,5
+M0004,main,L126358,conv_41574,3,u4415,m,u4421,m,m293,charade,1963.0,1960,9
+M0005,main,L626624,conv_31485,0,u3357,m,u3367,m,m223,true believer,1989.0,1980,10
+M0006,main,L151908,conv_44519,4,u4737,m,u4729,f,m314,the curse,1987.0,1980,4
+M0007,main,L665440,conv_82962,0,u9022,m,u9017,m,m615,young frankenstein,1974.0,1970,26
+M0008,main,L653409,conv_32303,0,u3486,f,u3493,m,m229,wild at heart,1990.0,1990,20
+M0009,main,L594617,conv_76285,3,u8285,m,u8280,m,m563,the leopard man,1943.0,1940,5
+M0010,main,L162795,conv_6829,1,u768,m,u765,m,m49,detroit rock city,1999.0,1990,9
+M0011,main,L419304,conv_21220,1,u2314,f,u2312,m,m149,ninotchka,1939.0,1930,4
+M0012,main,L458802,conv_23687,2,u2563,m,u2564,m,m166,raging bull,1980.0,1980,8
+M0013,main,L495863,conv_69101,0,u7546,f,u7548,m,m510,seven days to live,2000.0,2000,24
+M0014,main,L66249,conv_3851,0,u482,f,u479,m,m29,basic,2003.0,2000,4
+M0015,main,L279458,conv_12083,0,u1323,m,u1319,f,m88,high fidelity,2000.0,2000,10
+M0016,main,L565835,conv_74327,0,u8059,m,u8066,m,m546,sweet smell of success,1957.0,1950,6
+M0017,main,L248018,conv_51711,2,u5582,m,u5581,m,m371,gone in sixty seconds,2000.0,2000,47
+M0018,main,L572641,conv_74786,12,u8114,m,u8104,m,m550,the game,1997.0,1990,10
+M0019,main,L521351,conv_70846,6,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,5
+M0020,main,L152241,conv_6649,8,u740,m,u742,m,m47,dark star,1974.0,1970,11
+M0021,main,L585224,conv_75751,8,u8218,m,u8213,m,m558,the third man,1949.0,1940,5
+M0022,main,L114836,conv_40211,5,u4286,f,u4295,m,m286,a bucket of blood,1959.0,1950,9
+M0023,main,L64538,conv_3647,4,u457,m,u473,m,m28,barry lyndon,1975.0,1970,48
+M0024,main,L133548,conv_42318,1,u4505,f,u4501,m,m298,citizen kane,1941.0,1940,12
+M0025,main,L283969,conv_12343,5,u1364,f,u1356,m,m90,his girl friday,1940.0,1940,11
+M0026,main,L616008,conv_77845,2,u8465,f,u8470,m,m575,transatlantic merry-go-round,1934.0,1930,14
+M0027,main,L330062,conv_15504,3,u1662,f,u1660,f,m109,juno,2007.0,2000,10
+M0028,main,L141192,conv_6374,2,u713,m,u715,f,m45,confidence,2003.0,2000,4
+M0029,main,L584022,conv_30230,1,u3248,f,u3252,m,m215,the jacket,2005.0,2000,5
+M0030,main,L555459,conv_73495,2,u7965,f,u7959,m,m539,sunset blvd.,1950.0,1950,7
+M0031,main,L590174,conv_29498,3,u3178,m,u3182,m,m209,the body snatcher,1945.0,1940,6
+M0032,main,L337302,conv_57431,0,u6220,f,u6230,m,m416,kramer vs. kramer,1979.0,1970,16
+M0033,main,L10725,conv_32927,2,u3543,f,u3532,f,m233,l'avventura,1960.0,1960,10
+M0034,main,L28757,conv_33759,1,u3602,f,u3604,f,m238,all about eve,1950.0,1950,6
+M0035,main,L133784,conv_42406,5,u4505,f,u4507,m,m298,citizen kane,1941.0,1940,7
+M0036,main,L484250,conv_68217,17,u7437,f,u7442,m,m503,say anything...,1989.0,1980,7
+M0037,main,L267637,conv_11454,1,u1244,f,u1243,m,m82,"happy birthday, wanda june",1971.0,1970,6
+M0038,main,L164571,conv_45410,1,u4828,m,u4831,f,m322,the devil and daniel webster,2004.0,2000,19
+M0039,main,L35585,conv_2279,1,u288,m,u292,f,m18,american madness,1932.0,1930,23
+M0040,main,L370777,conv_18560,4,u2012,f,u2004,f,m130,marty,1955.0,1950,27
+M0041,main,L660469,conv_82361,0,u8950,f,u8951,f,m610,the wizard of oz,1939.0,1930,4
+M0042,main,L638783,conv_80355,1,u8762,f,u8767,m,m594,vertigo,1958.0,1950,17
+M0043,main,L92237,conv_38541,0,u4093,f,u4096,m,m273,book of shadows: blair witch 2,2000.0,2000,4
+M0044,main,L520941,conv_70757,0,u7712,m,u7722,f,m522,some like it hot,1959.0,1950,5
+M0045,main,L114211,conv_40222,1,u4288,m,u4286,f,m286,a bucket of blood,1959.0,1950,7
+M0046,main,L366899,conv_18507,4,u1991,m,u1993,m,m129,man on fire,2004.0,2000,6
+M0047,main,L500761,conv_69469,12,u7587,f,u7589,m,m513,shampoo,1975.0,1970,6
+M0048,main,L642251,conv_80700,2,u8797,f,u8786,m,m596,viridiana,1961.0,1960,5
+M0049,main,L373324,conv_59723,1,u6527,f,u6523,m,m433,the matrix,1999.0,1990,16
+M0050,main,L335726,conv_57281,0,u6204,f,u6208,m,m415,klute,1971.0,1970,6
+M0051,main,L169198,conv_6994,5,u781,m,u779,m,m50,donnie darko,2001.0,2000,11
+M0052,main,L521786,conv_70744,4,u7712,m,u7713,m,m522,some like it hot,1959.0,1950,6
+M0053,main,L42604,conv_34501,0,u3686,f,u3681,m,m243,annie hall,1977.0,1970,8
+M0054,main,L392782,conv_19603,0,u2137,m,u2151,m,m139,mr. smith goes to washington,1939.0,1930,22
+M0055,main,L395197,conv_19822,1,u2176,m,u2157,f,m140,mr. deeds goes to town,1936.0,1930,27
+M0056,main,L138052,conv_42829,16,u4562,f,u4555,m,m301,a clockwork orange,1971.0,1970,3
+M0057,main,L310804,conv_14364,4,u1548,m,u1535,f,m103,it happened one night,1934.0,1930,22
+M0058,main,L284274,conv_12592,2,u1364,f,u1375,m,m90,his girl friday,1940.0,1940,4
+M0059,main,L576873,conv_75333,0,u8170,f,u8171,m,m554,the relic,1997.0,1990,4
+M0060,main,L370379,conv_18511,17,u2010,m,u2001,m,m130,marty,1955.0,1950,14
+M0061,main,L395211,conv_19881,3,u2173,m,u2162,m,m140,mr. deeds goes to town,1936.0,1930,14
+M0062,main,L319946,conv_15369,1,u1649,m,u1652,m,m108,jaws,1975.0,1970,5
+M0063,main,L594477,conv_76356,2,u8286,f,u8285,m,m563,the leopard man,1943.0,1940,6
+M0064,main,L560594,conv_74118,14,u8033,f,u8038,m,m544,superman,1978.0,1970,4
+M0065,main,L506491,conv_25611,1,u2766,f,u2762,m,m180,silverado,1985.0,1980,11
+M0066,main,L644805,conv_81098,13,u8830,m,u8831,m,m599,wall street,1987.0,1980,40
+M0067,main,L148832,conv_6506,1,u733,f,u728,m,m46,croupier,1998.0,1990,6
+M0068,main,L35071,conv_2252,0,u299,f,u287,m,m18,american madness,1932.0,1930,28
+M0069,main,L489978,conv_68831,5,u7521,m,u7522,m,m508,seven,1979.0,1970,5
+M0070,main,L310451,conv_14305,1,u1535,f,u1530,f,m103,it happened one night,1934.0,1930,7
+M0071,main,L588762,conv_29388,4,u3171,f,u3172,m,m208,the birds,1963.0,1960,4
+M0072,main,L43001,conv_34541,0,u3686,f,u3681,m,m243,annie hall,1977.0,1970,17
+M0073,main,L596047,conv_29840,7,u3217,f,u3215,m,m212,the lost boys,1987.0,1980,5
+M0074,main,L431344,conv_63747,3,u6967,m,u6953,f,m465,on the waterfront,1954.0,1950,11
+M0075,main,L638654,conv_80283,7,u8767,m,u8759,f,m594,vertigo,1958.0,1950,7
+M0076,main,L198713,conv_48085,4,u5164,m,u5161,m,m342,the fabulous baker boys,1989.0,1980,4
+M0077,main,L393127,conv_19664,2,u2138,m,u2147,f,m139,mr. smith goes to washington,1939.0,1930,31
+M0078,main,L269831,conv_11536,1,u1262,f,u1255,m,m83,hardcore,1979.0,1970,5
+M0079,main,L28818,conv_33856,2,u3605,m,u3606,f,m238,all about eve,1950.0,1950,6
+M0080,main,L198823,conv_48172,6,u5161,m,u5173,f,m342,the fabulous baker boys,1989.0,1980,14
+M0081,main,L310597,conv_14344,4,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,7
+M0082,main,L55854,conv_1141,1,u131,m,u135,m,m9,the atomic submarine,1959.0,1950,4
+M0083,main,L419170,conv_21205,8,u2314,f,u2312,m,m149,ninotchka,1939.0,1930,9
+M0084,main,L431487,conv_63764,1,u6953,f,u6967,m,m465,on the waterfront,1954.0,1950,12
+M0085,main,L503261,conv_25085,6,u2705,m,u2704,m,m176,shivers,1975.0,1970,6
+M0086,main,L86068,conv_4145,3,u502,f,u501,m,m31,birthday girl,2001.0,2000,6
+M0087,main,L262897,conv_53038,2,u5746,f,u5749,f,m380,hannah and her sisters,1986.0,1980,5
+M0088,main,L400372,conv_20009,1,u2196,m,u2188,m,m141,mumford,1999.0,1990,5
+M0089,main,L431918,conv_63782,3,u6953,f,u6967,m,m465,on the waterfront,1954.0,1950,21
+M0090,main,L15464,conv_33152,1,u3572,m,u3567,f,m235,a hard day's night,1964.0,1960,8
+M0091,main,L47383,conv_34981,0,u3730,f,u3727,m,m246,the apartment,1960.0,1960,16
+M0092,main,L320829,conv_55820,0,u6075,m,u6068,m,m403,jaws 2,1978.0,1970,5
+M0093,main,L309008,conv_55509,1,u6029,f,u6033,m,m401,isle of the dead,1945.0,1940,7
+M0094,main,L250382,conv_51994,27,u5615,m,u5611,m,m373,good will hunting,1997.0,1990,44
+M0095,main,L295204,conv_13179,1,u1416,m,u1417,m,m94,the hustler,1961.0,1960,17
+M0096,main,L125000,conv_41262,3,u4405,m,u4401,m,m292,the crying game,1992.0,1990,4
+M0097,main,L222197,conv_8735,4,u972,f,u980,m,m63,frankenstein,1931.0,1930,8
+M0098,main,L659711,conv_82432,4,u8950,f,u8959,m,m610,the wizard of oz,1939.0,1930,30
+M0099,main,L511406,conv_70234,1,u7650,f,u7649,m,m517,sleepy hollow,1999.0,1990,6
+M0100,main,L97274,conv_4937,1,u580,f,u574,m,m36,blue velvet,1986.0,1980,5
+M0101,main,L28811,conv_33698,7,u3606,f,u3600,m,m238,all about eve,1950.0,1950,35
+M0102,main,L456378,conv_66047,3,u7217,m,u7216,f,m486,quantum project,2000.0,2000,20
+M0103,main,L28577,conv_33604,6,u3599,m,u3602,f,m238,all about eve,1950.0,1950,34
+M0104,main,L299522,conv_13459,2,u1456,m,u1457,m,m98,indiana jones and the last crusade,1989.0,1980,6
+M0105,main,L30466,conv_2053,0,u257,m,u266,m,m16,amadeus,1984.0,1980,52
+M0106,main,L42907,conv_34529,4,u3681,m,u3686,f,m243,annie hall,1977.0,1970,16
+M0107,main,L44556,conv_34799,13,u3714,f,u3711,m,m244,the anniversary party,2001.0,2000,6
+M0108,main,L118761,conv_5817,1,u666,m,u664,f,m42,casablanca,1942.0,1940,6
+M0109,main,L358762,conv_58688,4,u6398,m,u6393,f,m426,lost souls,2000.0,2000,7
+M0110,main,L152377,conv_6645,2,u743,m,u740,m,m47,dark star,1974.0,1970,3
+M0111,main,L342145,conv_57856,1,u6266,f,u6269,m,m419,the silence of the lambs,1991.0,1990,5
+M0112,main,L424495,conv_21732,0,u2369,f,u2371,m,m152,nurse betty,2000.0,2000,14
+M0113,main,L643439,conv_80909,5,u8808,f,u8810,m,m598,wag the dog,1997.0,1990,7
+M0114,main,L418949,conv_21266,0,u2320,f,u2312,m,m149,ninotchka,1939.0,1930,11
+M0115,main,L250532,conv_10866,1,u1173,m,u1177,f,m77,the graduate,1967.0,1960,4
+M0116,main,L475176,conv_24422,1,u2621,m,u2632,m,m171,roughshod,1949.0,1940,7
+M0117,main,L164133,conv_45387,1,u4831,f,u4828,m,m322,the devil and daniel webster,2004.0,2000,19
+M0118,main,L470144,conv_66570,0,u7284,m,u7265,m,m491,rocky,1976.0,1970,10
+M0119,main,L565424,conv_74359,3,u8059,m,u8065,m,m546,sweet smell of success,1957.0,1950,5
+M0120,main,L45287,conv_2788,2,u354,m,u349,m,m21,antitrust,2001.0,2000,5
+M0121,main,L126163,conv_41650,2,u4420,m,u4421,m,m293,charade,1963.0,1960,7
+M0122,main,L263026,conv_53109,0,u5747,f,u5746,f,m380,hannah and her sisters,1986.0,1980,7
+M0123,main,L554986,conv_73507,0,u7962,m,u7959,m,m539,sunset blvd.,1950.0,1950,11
+M0124,main,L134091,conv_42450,2,u4515,f,u4520,m,m298,citizen kane,1941.0,1940,4
+M0125,main,L234616,conv_50922,0,u5496,m,u5495,f,m366,the getaway,1972.0,1970,17
+M0126,main,L43463,conv_34575,1,u3686,f,u3681,m,m243,annie hall,1977.0,1970,9
+M0127,main,L295682,conv_13165,6,u1420,f,u1416,m,m94,the hustler,1961.0,1960,4
+M0128,main,L185257,conv_47206,0,u5064,f,u5065,m,m335,entrapment,1999.0,1990,5
+M0129,main,L619984,conv_78371,2,u8523,m,u8533,f,m578,to sleep with anger,1990.0,1990,5
+M0130,main,L338067,conv_57497,0,u6231,f,u6230,m,m416,kramer vs. kramer,1979.0,1970,4
+M0131,main,L525648,conv_71433,1,u7779,f,u7786,m,m526,spacejacked,1997.0,1990,8
+M0132,main,L462104,conv_23911,2,u2583,m,u2585,m,m168,rebel without a cause,1955.0,1950,16
+M0133,main,L634369,conv_79796,1,u8702,f,u8697,m,m590,unbreakable,2000.0,2000,4
+M0134,main,L130222,conv_42036,2,u4470,m,u4477,m,m296,chinatown,1974.0,1970,3
+M0135,main,L395229,conv_19882,2,u2162,m,u2173,m,m140,mr. deeds goes to town,1936.0,1930,7
+M0136,main,L419786,conv_21290,4,u2314,f,u2320,f,m149,ninotchka,1939.0,1930,5
+M0137,main,L133780,conv_42406,1,u4505,f,u4507,m,m298,citizen kane,1941.0,1940,40
+M0138,main,L445023,conv_23001,4,u2487,m,u2495,m,m161,platinum blonde,1931.0,1930,19
+M0139,main,L395840,conv_19955,3,u2175,f,u2173,m,m140,mr. deeds goes to town,1936.0,1930,18
+M0140,main,L445015,conv_23000,9,u2495,m,u2487,m,m161,platinum blonde,1931.0,1930,12
+M0141,main,L151109,conv_44366,0,u4719,f,u4725,f,m313,the curse of the cat people,1944.0,1940,3
+M0142,main,L31682,conv_2089,3,u269,f,u274,m,m17,an american werewolf in london,1981.0,1980,9
+M0143,main,L521276,conv_70726,13,u7712,m,u7713,m,m522,some like it hot,1959.0,1950,12
+M0144,main,L140764,conv_6398,1,u713,m,u718,m,m45,confidence,2003.0,2000,10
+M0145,main,L583909,conv_30258,3,u3252,m,u3250,f,m215,the jacket,2005.0,2000,14
+M0146,main,L553805,conv_73130,1,u7936,m,u7932,m,m537,suburbia,1996.0,1990,7
+M0147,main,L284620,conv_12435,1,u1364,f,u1357,m,m90,his girl friday,1940.0,1940,3
+M0148,main,L258330,conv_52458,0,u5676,f,u5674,f,m376,the horse whisperer,1998.0,1990,11
+M0149,main,L521529,conv_70858,2,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,5
+M0150,main,L534072,conv_27153,1,u2938,m,u2943,m,m193,star trek: the wrath of khan,1982.0,1980,5
+M0151,main,L589813,conv_29516,0,u3182,m,u3180,m,m209,the body snatcher,1945.0,1940,12
+M0152,main,L648412,conv_81382,8,u8859,f,u8867,m,m601,what lies beneath,2000.0,2000,39
+M0153,main,L410014,conv_62614,11,u6822,m,u6830,f,m455,nothing but a man,1964.0,1960,18
+M0154,main,L356602,conv_58622,1,u6379,f,u6381,m,m425,lost in translation,2003.0,2000,7
+M0155,main,L589023,conv_29302,23,u3162,f,u3171,f,m208,the birds,1963.0,1960,16
+M0156,main,L565795,conv_74322,2,u8066,m,u8059,m,m546,sweet smell of success,1957.0,1950,5
+M0157,main,L497703,conv_25029,20,u2688,f,u2692,m,m175,"sex, lies, and videotape",1989.0,1980,20
+M0158,main,L659926,conv_82502,0,u8960,m,u8959,m,m610,the wizard of oz,1939.0,1930,8
+M0159,main,L424154,conv_21755,2,u2379,m,u2369,f,m152,nurse betty,2000.0,2000,6
+M0160,main,L268152,conv_11441,1,u1244,f,u1241,m,m82,"happy birthday, wanda june",1971.0,1970,5
+M0161,main,L621826,conv_78490,4,u8545,m,u8536,m,m579,toy story,1995.0,1990,13
+M0162,main,L97394,conv_4866,1,u574,m,u571,f,m36,blue velvet,1986.0,1980,4
+M0163,main,L5291,conv_642,1,u71,m,u67,m,m4,48 hrs.,1982.0,1980,17
+M0164,main,L142350,conv_43072,2,u4595,f,u4592,m,m303,conspiracy theory,1997.0,1990,5
+M0165,main,L262716,conv_53115,0,u5750,m,u5747,f,m380,hannah and her sisters,1986.0,1980,5
+M0166,main,L532877,conv_26767,0,u2894,m,u2895,m,m190,stalag 17,1953.0,1950,4
+M0167,main,L338587,conv_16115,4,u1724,f,u1725,m,m113,krull,1983.0,1980,7
+M0168,main,L28889,conv_33617,1,u3602,f,u3599,m,m238,all about eve,1950.0,1950,11
+M0169,main,L431454,conv_63758,15,u6967,m,u6953,f,m465,on the waterfront,1954.0,1950,28
+M0170,main,L28153,conv_33679,11,u3606,f,u3600,m,m238,all about eve,1950.0,1950,26
+M0171,main,L251243,conv_10816,4,u1178,f,u1169,m,m77,the graduate,1967.0,1960,4
+M0172,main,L444895,conv_22936,2,u2485,f,u2495,m,m161,platinum blonde,1931.0,1930,10
+M0173,main,L377373,conv_60256,3,u6567,f,u6563,m,m436,memento,2000.0,2000,23
+M0174,main,L47207,conv_34965,0,u3730,f,u3727,m,m246,the apartment,1960.0,1960,8
+M0175,main,L521353,conv_70846,8,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,3
+M0176,main,L461581,conv_23866,1,u2574,m,u2575,f,m167,rear window,1954.0,1950,11
+M0177,main,L431540,conv_63836,0,u6961,m,u6967,m,m465,on the waterfront,1954.0,1950,48
+M0178,main,L250089,conv_51987,2,u5615,m,u5611,m,m373,good will hunting,1997.0,1990,14
+M0179,main,L497748,conv_24934,8,u2691,m,u2687,f,m175,"sex, lies, and videotape",1989.0,1980,8
+M0180,main,L588913,conv_29350,10,u3168,f,u3172,m,m208,the birds,1963.0,1960,13
+M0181,main,L19456,conv_1565,0,u214,m,u198,f,m13,airplane!,1980.0,1980,26
+M0182,main,L143612,conv_43322,0,u4623,m,u4620,m,m305,cool hand luke,1967.0,1960,6
+M0183,main,L319877,conv_15256,1,u1652,m,u1642,m,m108,jaws,1975.0,1970,12
+M0184,main,L256808,conv_52303,7,u5667,f,u5668,m,m375,grosse pointe blank,1997.0,1990,4
+M0185,main,L150838,conv_44300,0,u4726,m,u4718,f,m313,the curse of the cat people,1944.0,1940,4
+M0186,main,L28452,conv_33815,4,u3604,f,u3605,m,m238,all about eve,1950.0,1950,5
+M0187,main,L555666,conv_73535,2,u7965,f,u7962,m,m539,sunset blvd.,1950.0,1950,12
+M0188,main,L330092,conv_15404,7,u1660,f,u1654,m,m109,juno,2007.0,2000,8
+M0189,main,L502555,conv_69793,1,u7619,f,u7614,m,m514,the shining,1980.0,1980,23
+M0190,main,L540708,conv_27906,0,u3024,f,u3031,m,m198,star trek: nemesis,2002.0,2000,16
+M0191,main,L305719,conv_55228,0,u6011,f,u6013,m,m399,interview with the vampire: the vampire chronicles,1994.0,1990,8
+M0192,main,L439744,conv_22568,2,u2461,m,u2462,m,m158,pet sematary,1989.0,1980,33
+M0193,main,L134084,conv_42363,4,u4505,f,u4515,f,m298,citizen kane,1941.0,1940,7
+M0194,main,L475114,conv_24499,0,u2629,f,u2632,m,m171,roughshod,1949.0,1940,30
+M0195,main,L452331,conv_65737,2,u7158,m,u7160,m,m481,the producers,1968.0,1960,16
+M0196,main,L27806,conv_33774,1,u3602,f,u3606,f,m238,all about eve,1950.0,1950,18
+M0197,main,L284675,conv_12518,0,u1364,f,u1363,m,m90,his girl friday,1940.0,1940,11
+M0198,main,L43625,conv_34586,11,u3686,f,u3681,m,m243,annie hall,1977.0,1970,27
+M0199,main,L445231,conv_22955,0,u2485,f,u2495,m,m161,platinum blonde,1931.0,1930,8
+M0200,main,L615577,conv_77910,3,u8476,m,u8467,m,m575,transatlantic merry-go-round,1934.0,1930,3
+M0201,main,L42733,conv_34512,1,u3681,m,u3686,f,m243,annie hall,1977.0,1970,9
+M0202,main,L522391,conv_26379,3,u2851,f,u2856,m,m188,someone to watch over me,1987.0,1980,9
+M0203,main,L152264,conv_6651,1,u742,m,u740,m,m47,dark star,1974.0,1970,5
+M0204,main,L89541,conv_38305,0,u4086,f,u4081,m,m272,blade,1998.0,1990,3
+M0205,main,L560521,conv_74055,12,u8033,f,u8026,m,m544,superman,1978.0,1970,3
+M0206,main,L496827,conv_24850,2,u2674,m,u2673,m,m174,the seventh victim,1943.0,1940,17
+M0207,main,L66481,conv_3758,1,u478,m,u482,f,m29,basic,2003.0,2000,16
+M0208,main,L588644,conv_29326,0,u3171,f,u3164,f,m208,the birds,1963.0,1960,4
+M0209,main,L183993,conv_47057,5,u5051,f,u5062,m,m334,the english patient,1996.0,1990,3
+M0210,main,L457662,conv_65998,13,u7206,f,u7211,m,m485,mystery of the wax museum,1933.0,1930,4
+M0211,main,L119018,conv_5753,1,u663,m,u665,m,m42,casablanca,1942.0,1940,25
+M0212,main,L548341,conv_72461,6,u7877,m,u7863,f,m532,state and main,2000.0,2000,25
+M0213,main,L60908,conv_3336,5,u417,f,u412,m,m25,backdraft,1991.0,1990,4
+M0214,main,L188091,conv_7474,1,u854,m,u855,m,m54,erik the viking,1989.0,1980,7
+M0215,main,L307488,conv_13254,0,u1430,f,u1429,m,m96,invaders from mars,1953.0,1950,6
+M0216,main,L31352,conv_2143,0,u276,m,u274,m,m17,an american werewolf in london,1981.0,1980,3
+M0217,main,L296322,conv_54942,1,u5976,f,u5979,m,m396,i walked with a zombie,1943.0,1940,9
+M0218,main,L349146,conv_16820,1,u1806,m,u1799,m,m119,life as a house,2001.0,2000,5
+M0219,main,L390868,conv_61139,9,u6649,f,u6652,m,m444,moonstruck,1987.0,1980,4
+M0220,main,L520918,conv_70715,3,u7712,m,u7713,m,m522,some like it hot,1959.0,1950,6
+M0221,main,L497371,conv_24930,0,u2687,f,u2691,m,m175,"sex, lies, and videotape",1989.0,1980,6
+M0222,main,L548292,conv_72353,0,u7856,f,u7869,m,m532,state and main,2000.0,2000,5
+M0223,main,L603202,conv_77159,3,u8400,m,u8401,f,m569,the thin man,1934.0,1930,3
+M0224,main,L515587,conv_26205,1,u2838,m,u2836,m,m186,smokin' aces,2006.0,2000,7
+M0225,main,L357445,conv_17660,1,u1893,m,u1894,m,m124,lost horizon,1937.0,1930,15
+M0226,main,L48095,conv_35128,0,u3763,m,u3745,m,m247,apocalypse now,1979.0,1970,26
+M0227,main,L638455,conv_80391,2,u8764,f,u8767,m,m594,vertigo,1958.0,1950,9
+M0228,main,L289247,conv_54161,0,u5901,m,u5909,m,m390,hotel rwanda,2004.0,2000,4
+M0229,main,L560746,conv_74087,0,u8034,m,u8027,f,m544,superman,1978.0,1970,17
+M0230,main,L645789,conv_31863,1,u3437,f,u3425,m,m226,the war of the worlds,1953.0,1950,6
+M0231,main,L230389,conv_50603,8,u5452,f,u5455,m,m363,game 6,2005.0,2000,19
+M0232,main,L588915,conv_29350,12,u3168,f,u3172,m,m208,the birds,1963.0,1960,18
+M0233,main,L260081,conv_52824,11,u5725,f,u5728,m,m379,halloween,1978.0,1970,25
+M0234,main,L660402,conv_82398,0,u8960,m,u8950,f,m610,the wizard of oz,1939.0,1930,6
+M0235,main,L659889,conv_82496,1,u8959,m,u8960,m,m610,the wizard of oz,1939.0,1930,7
+M0236,main,L590061,conv_29471,2,u3183,f,u3178,m,m209,the body snatcher,1945.0,1940,10
+M0237,main,L194204,conv_7519,6,u859,f,u861,m,m55,eternal sunshine of the spotless mind,2004.0,2000,37
+M0238,main,L133945,conv_42345,1,u4504,f,u4505,f,m298,citizen kane,1941.0,1940,8
+M0239,main,L638838,conv_80367,3,u8762,f,u8767,m,m594,vertigo,1958.0,1950,13
+M0240,main,L393884,conv_19738,1,u2144,m,u2151,m,m139,mr. smith goes to washington,1939.0,1930,4
+M0241,main,L133939,conv_42344,3,u4504,f,u4505,f,m298,citizen kane,1941.0,1940,19
+M0242,main,L637747,conv_80232,6,u8744,m,u8752,m,m593,verdict,1974.0,1970,15
+M0243,main,L182064,conv_46652,3,u4991,m,u5001,f,m332,l.a. confidential,1997.0,1990,4
+M0244,main,L28892,conv_33617,4,u3599,m,u3602,f,m238,all about eve,1950.0,1950,10
+M0245,main,L253838,conv_10887,12,u1188,f,u1184,m,m78,grand hotel,1932.0,1930,3
+M0246,main,L204839,conv_48757,1,u5221,m,u5224,m,m346,fantastic voyage,1966.0,1960,3
+M0247,main,L660136,conv_82417,0,u8950,f,u8954,m,m610,the wizard of oz,1939.0,1930,3
+M0248,main,L393922,conv_19683,0,u2147,f,u2138,m,m139,mr. smith goes to washington,1939.0,1930,16
+M0249,main,L565651,conv_74419,0,u8066,m,u8065,m,m546,sweet smell of success,1957.0,1950,4
+M0250,main,L419289,conv_21216,1,u2314,f,u2312,m,m149,ninotchka,1939.0,1930,13
+M0251,main,L86821,conv_4281,7,u515,f,u516,m,m32,black snake moan,2006.0,2000,22
+M0252,main,L249728,conv_51958,1,u5621,m,u5611,m,m373,good will hunting,1997.0,1990,14
+M0253,main,L117708,conv_5616,0,u646,m,u645,m,m41,the butterfly effect,2004.0,2000,3
+M0254,main,L251627,conv_10718,1,u1169,m,u1172,f,m77,the graduate,1967.0,1960,3
+M0255,main,L27713,conv_33790,5,u3604,f,u3606,f,m238,all about eve,1950.0,1950,5
+M0256,main,L470769,conv_66657,1,u7283,m,u7277,m,m491,rocky,1976.0,1970,7
+M0257,main,L442560,conv_64682,1,u7057,m,u7055,f,m472,pitch black,2000.0,2000,14
+M0258,main,L236552,conv_10006,1,u1100,m,u1094,f,m72,ghost world,2001.0,2000,22
+M0259,main,L254022,conv_10952,0,u1191,m,u1187,m,m78,grand hotel,1932.0,1930,13
+M0260,main,L368606,conv_59444,0,u6490,f,u6484,m,m431,manhunter,1986.0,1980,14
+M0261,main,L250985,conv_10795,14,u1178,f,u1169,m,m77,the graduate,1967.0,1960,7
+M0262,main,L419915,conv_21070,2,u2304,f,u2314,f,m149,ninotchka,1939.0,1930,4
+M0263,main,L555520,conv_73517,6,u7959,m,u7962,m,m539,sunset blvd.,1950.0,1950,29
+M0264,main,L370639,conv_18541,3,u2004,f,u2010,m,m130,marty,1955.0,1950,3
+M0265,main,L106455,conv_39551,2,u4214,f,u4210,f,m281,bound,1996.0,1990,19
+M0266,main,L567471,conv_74483,0,u8072,m,u8077,m,m547,terminator 2: judgment day,1991.0,1990,3
+M0267,main,L251470,conv_10840,1,u1169,m,u1177,f,m77,the graduate,1967.0,1960,4
+M0268,main,L645385,conv_81157,6,u8836,m,u8830,m,m599,wall street,1987.0,1980,45
+M0269,main,L126173,conv_41652,3,u4420,m,u4421,m,m293,charade,1963.0,1960,17
+M0270,main,L251030,conv_10833,1,u1177,f,u1169,m,m77,the graduate,1967.0,1960,9
+M0271,main,L602482,conv_77033,5,u8406,f,u8391,f,m569,the thin man,1934.0,1930,19
+M0272,main,L421621,conv_21658,0,u2352,m,u2363,m,m151,no country for old men,2007.0,2000,10
+M0273,main,L461276,conv_23843,2,u2574,m,u2575,f,m167,rear window,1954.0,1950,19
+M0274,main,L270064,conv_11700,1,u1272,m,u1277,m,m84,harold and maude,1971.0,1970,3
+M0275,main,L253779,conv_11057,16,u1201,m,u1195,m,m78,grand hotel,1932.0,1930,4
+M0276,main,L284486,conv_12350,0,u1364,f,u1356,m,m90,his girl friday,1940.0,1940,16
+M0277,main,L666158,conv_83067,0,u9020,f,u9019,m,m615,young frankenstein,1974.0,1970,25
+M0278,main,L419179,conv_21206,1,u2314,f,u2312,m,m149,ninotchka,1939.0,1930,6
+M0279,main,L124997,conv_41262,0,u4401,m,u4405,m,m292,the crying game,1992.0,1990,4
+M0280,main,L336240,conv_57266,1,u6204,f,u6205,m,m415,klute,1971.0,1970,6
+M0281,main,L434262,conv_64010,8,u6980,m,u6983,f,m467,out of sight,1998.0,1990,7
+M0282,main,L133571,conv_42281,1,u4505,f,u4500,m,m298,citizen kane,1941.0,1940,7
+M0283,main,L520866,conv_70708,3,u7713,m,u7712,m,m522,some like it hot,1959.0,1950,6
+M0284,main,L284976,conv_12453,1,u1364,f,u1357,m,m90,his girl friday,1940.0,1940,20
+M0285,main,L239045,conv_10328,1,u1124,f,u1127,m,m74,ghostbusters ii,1989.0,1980,25
+M0286,main,L565782,conv_74338,1,u8067,f,u8059,m,m546,sweet smell of success,1957.0,1950,3
+M0287,main,L251622,conv_10717,0,u1172,f,u1169,m,m77,the graduate,1967.0,1960,4
+M0288,main,L475039,conv_24465,0,u2629,f,u2627,f,m171,roughshod,1949.0,1940,7
+M0289,main,L279574,conv_12090,3,u1319,f,u1323,m,m88,high fidelity,2000.0,2000,9
+M0290,main,L306499,conv_14247,1,u1519,f,u1525,f,m102,intolerable cruelty,2003.0,2000,14
+M0291,main,L241782,conv_9011,4,u1008,m,u1017,f,m66,g.i. jane,1997.0,1990,7
+M0292,main,L468033,conv_66477,0,u7255,m,u7258,m,m490,the rocky horror picture show,1975.0,1970,11
+M0293,main,L588660,conv_29327,9,u3164,f,u3171,f,m208,the birds,1963.0,1960,6
+M0294,main,L638817,conv_80362,1,u8762,f,u8767,m,m594,vertigo,1958.0,1950,10
+M0295,main,L250705,conv_10778,13,u1178,f,u1169,m,m77,the graduate,1967.0,1960,8
+M0296,main,L279456,conv_12082,1,u1323,m,u1319,f,m88,high fidelity,2000.0,2000,15
+M0297,main,L589186,conv_29408,2,u3172,m,u3171,f,m208,the birds,1963.0,1960,5
+M0298,main,L420089,conv_21121,1,u2305,m,u2314,f,m149,ninotchka,1939.0,1930,5
+M0299,main,L119381,conv_5750,1,u667,m,u663,m,m42,casablanca,1942.0,1940,22
+M0300,main,L353031,conv_17381,2,u1862,m,u1858,f,m122,logan's run,1976.0,1970,13
+M0301,main,L295388,conv_13148,1,u1420,f,u1416,m,m94,the hustler,1961.0,1960,6
+M0302,main,L250709,conv_10745,2,u1179,f,u1169,m,m77,the graduate,1967.0,1960,9
+M0303,main,L589112,conv_29404,6,u3172,m,u3171,f,m208,the birds,1963.0,1960,16
+M0304,main,L92866,conv_4592,4,u547,m,u556,f,m35,blast from the past,1999.0,1990,9
+M0305,main,L62864,conv_3587,4,u450,f,u439,m,m27,bamboozled,2000.0,2000,14
+M0306,main,L114818,conv_40208,1,u4286,f,u4295,m,m286,a bucket of blood,1959.0,1950,6
+M0307,main,L352618,conv_17342,1,u1858,f,u1859,m,m122,logan's run,1976.0,1970,4
+M0308,main,L276281,conv_53571,0,u5820,m,u5806,f,m385,hellraiser: hellseeker,2002.0,2000,9
+M0309,main,L269822,conv_11535,4,u1262,f,u1255,m,m83,hardcore,1979.0,1970,6
+M0310,main,L601542,conv_76942,6,u8378,f,u8375,m,m568,the sting,1973.0,1970,9
+M0311,main,L29515,conv_33947,2,u3611,m,u3612,f,m239,all the president's men,1976.0,1970,10
+M0312,main,L81617,conv_37625,2,u3998,f,u3990,m,m266,being there,1979.0,1970,5
+M0313,main,L542967,conv_28159,10,u3043,f,u3050,m,m199,starman,1984.0,1980,26
+M0314,main,L250531,conv_10866,0,u1177,f,u1173,m,m77,the graduate,1967.0,1960,4
+M0315,main,L10724,conv_32927,1,u3532,f,u3543,f,m233,l'avventura,1960.0,1960,6
+M0316,main,L284610,conv_12433,1,u1364,f,u1357,m,m90,his girl friday,1940.0,1940,12
+M0317,main,L28010,conv_33780,13,u3606,f,u3602,f,m238,all about eve,1950.0,1950,7
+M0318,main,L207304,conv_8235,11,u910,f,u915,f,m59,fast times at ridgemont high,1982.0,1980,18
+M0319,main,L134193,conv_42452,2,u4515,f,u4520,m,m298,citizen kane,1941.0,1940,27
+M0320,main,L445237,conv_22916,0,u2485,f,u2489,f,m161,platinum blonde,1931.0,1930,17
+M0321,main,L255196,conv_52181,4,u5652,m,u5640,f,m374,the grapes of wrath,1940.0,1940,25
+M0322,main,L521467,conv_70810,2,u7713,m,u7717,m,m522,some like it hot,1959.0,1950,15
+M0323,main,L533703,conv_27024,1,u2932,m,u2938,m,m193,star trek: the wrath of khan,1982.0,1980,6
+M0324,main,L459846,conv_66132,6,u7221,m,u7226,f,m487,rambling rose,1991.0,1990,4
+M0325,main,L198113,conv_48001,0,u5146,m,u5144,m,m341,the exorcist,1973.0,1970,8
+M0326,main,L639253,conv_80327,1,u8761,f,u8767,m,m594,vertigo,1958.0,1950,4
+M0327,main,L588826,conv_29347,0,u3168,f,u3172,m,m208,the birds,1963.0,1960,5
+M0328,main,L263176,conv_53129,6,u5747,f,u5750,m,m380,hannah and her sisters,1986.0,1980,8
+M0329,main,L72857,conv_36974,1,u3930,m,u3922,m,m260,batman and robin,1949.0,1940,9
+M0330,main,L439097,conv_64372,0,u7023,f,u7025,f,m469,peggy sue got married,1986.0,1980,8
+M0331,main,L646019,conv_31878,0,u3425,m,u3437,f,m226,the war of the worlds,1953.0,1950,16
+M0332,main,L220059,conv_49891,2,u5355,f,u5345,m,m355,fletch,1985.0,1980,9
+M0333,main,L345813,conv_16582,5,u1785,m,u1784,m,m118,legend,1985.0,1980,6
+M0334,main,L310606,conv_14344,13,u1548,m,u1535,f,m103,it happened one night,1934.0,1930,8
+M0335,main,L462479,conv_23997,0,u2589,f,u2585,m,m168,rebel without a cause,1955.0,1950,13
+M0336,main,L497075,conv_25018,1,u2688,f,u2692,m,m175,"sex, lies, and videotape",1989.0,1980,9
+M0337,main,L523356,conv_71058,1,u7748,m,u7739,m,m524,sounder,1972.0,1970,31
+M0338,main,L430545,conv_63678,7,u6940,f,u6944,f,m464,only you,1994.0,1990,33
+M0339,main,L665515,conv_82932,9,u9017,m,u9015,f,m615,young frankenstein,1974.0,1970,6
+M0340,main,L251350,conv_10686,0,u1172,f,u1169,m,m77,the graduate,1967.0,1960,11
+M0341,main,L295752,conv_13075,0,u1416,m,u1413,m,m94,the hustler,1961.0,1960,31
+M0342,main,L585436,conv_75689,0,u8218,m,u8211,f,m558,the third man,1949.0,1940,8
+M0343,main,L284852,conv_12546,0,u1363,m,u1368,m,m90,his girl friday,1940.0,1940,3
+M0344,main,L15483,conv_33154,0,u3572,m,u3567,f,m235,a hard day's night,1964.0,1960,28
+M0345,main,L251451,conv_10700,0,u1169,m,u1172,f,m77,the graduate,1967.0,1960,5
+M0346,main,L515416,conv_26069,1,u2815,m,u2820,f,m185,smokey and the bandit,1977.0,1970,17
+M0347,main,L95650,conv_38930,2,u4136,m,u4141,f,m276,blow,2001.0,2000,4
+M0348,main,L602962,conv_77028,1,u8391,f,u8400,m,m569,the thin man,1934.0,1930,7
+M0349,main,L548500,conv_72463,0,u7863,f,u7877,m,m532,state and main,2000.0,2000,10
+M0350,main,L584536,conv_75648,1,u8218,m,u8211,f,m558,the third man,1949.0,1940,5
+M0351,main,L521604,conv_70867,18,u7713,m,u7722,f,m522,some like it hot,1959.0,1950,6
+M0352,main,L504560,conv_25345,2,u2738,m,u2737,f,m178,sideways,2004.0,2000,4
+M0353,main,L614268,conv_77685,6,u8443,f,u8437,m,m573,trouble in paradise,1932.0,1930,10
+M0354,main,L639170,conv_80310,1,u8767,m,u8761,f,m594,vertigo,1958.0,1950,4
+M0355,main,L312584,conv_55592,1,u6045,m,u6039,m,m402,it's a wonderful life,1946.0,1940,8
+M0356,main,L462442,conv_23934,1,u2583,m,u2589,f,m168,rebel without a cause,1955.0,1950,4
+M0357,main,L251270,conv_10837,1,u1169,m,u1177,f,m77,the graduate,1967.0,1960,20
+M0358,main,L461240,conv_23835,0,u2575,f,u2574,m,m167,rear window,1954.0,1950,7
+M0359,main,L283775,conv_12369,10,u1356,m,u1357,m,m90,his girl friday,1940.0,1940,13
+M0360,main,L47052,conv_35077,0,u3729,m,u3730,f,m246,the apartment,1960.0,1960,7
+M0361,main,L160884,conv_45158,0,u4805,f,u4808,m,m320,the deer hunter,1978.0,1970,4
+M0362,main,L496844,conv_24854,0,u2674,m,u2673,m,m174,the seventh victim,1943.0,1940,17
+M0363,main,L409370,conv_62549,3,u6829,f,u6822,m,m455,nothing but a man,1964.0,1960,14
+M0364,main,L118899,conv_5774,3,u667,m,u664,f,m42,casablanca,1942.0,1940,31
+M0365,main,L356951,conv_17558,0,u1898,m,u1890,m,m124,lost horizon,1937.0,1930,22
+M0366,main,L204534,conv_48646,1,u5214,m,u5216,m,m345,the fantastic four,1994.0,1990,23
+M0367,main,L151012,conv_44353,1,u4719,f,u4721,m,m313,the curse of the cat people,1944.0,1940,10
+M0368,main,L552377,conv_73018,3,u7927,m,u7920,m,m536,dr. strangelove or: how i learned to stop worrying and love the bomb,1964.0,1960,24
+M0369,main,L527883,conv_71781,9,u7806,f,u7811,m,m528,sphere,1998.0,1990,15
+M0370,main,L284227,conv_12542,4,u1368,m,u1363,m,m90,his girl friday,1940.0,1940,12
+M0371,main,L8545,conv_1078,0,u123,f,u130,f,m8,a nightmare on elm street: the dream child,1989.0,1980,17
+M0372,main,L118980,conv_5747,7,u667,m,u663,m,m42,casablanca,1942.0,1940,7
+M0373,main,L73018,conv_36976,1,u3922,m,u3930,m,m260,batman and robin,1949.0,1940,6
+M0374,main,L615741,conv_77955,4,u8476,m,u8468,m,m575,transatlantic merry-go-round,1934.0,1930,3
+M0375,main,L14291,conv_33005,8,u3557,f,u3549,f,m234,agnes of god,1985.0,1980,15
+M0376,main,L588532,conv_29427,10,u3174,f,u3171,f,m208,the birds,1963.0,1960,5
+M0377,main,L311185,conv_14396,0,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,7
+M0378,main,L190091,conv_47383,1,u5074,m,u5076,f,m336,erin brockovich,2000.0,2000,6
+M0379,main,L82380,conv_37791,9,u4029,f,u4020,m,m267,being john malkovich,1999.0,1990,17
+M0380,main,L150737,conv_44286,2,u4718,f,u4719,f,m313,the curse of the cat people,1944.0,1940,9
+M0381,main,L284919,conv_12449,0,u1357,m,u1364,f,m90,his girl friday,1940.0,1940,13
+M0382,main,L99416,conv_39145,0,u4166,m,u4174,f,m278,body of evidence,1993.0,1990,5
+M0383,main,L296171,conv_54931,1,u5976,f,u5979,m,m396,i walked with a zombie,1943.0,1940,10
+M0384,main,L150787,conv_44355,1,u4719,f,u4725,f,m313,the curse of the cat people,1944.0,1940,21
+M0385,main,L190523,conv_47416,9,u5074,m,u5076,f,m336,erin brockovich,2000.0,2000,15
+M0386,main,L612112,conv_77464,0,u8417,m,u8419,m,m571,thx 1138,1971.0,1970,21
+M0387,main,L594794,conv_76284,2,u8280,m,u8284,m,m563,the leopard man,1943.0,1940,15
+M0388,main,L194812,conv_7568,8,u859,f,u861,m,m55,eternal sunshine of the spotless mind,2004.0,2000,10
+M0389,main,L509245,conv_25773,1,u2789,m,u2786,m,m182,the sixth sense,1999.0,1990,14
+M0390,main,L119425,conv_5908,3,u666,m,u667,m,m42,casablanca,1942.0,1940,4
+M0391,main,L613723,conv_77674,0,u8437,m,u8443,f,m573,trouble in paradise,1932.0,1930,11
+M0392,main,L417611,conv_63053,2,u6889,f,u6886,f,m461,a nightmare on elm street 3: dream warriors,1987.0,1980,4
+M0393,main,L419907,conv_21069,3,u2314,f,u2304,f,m149,ninotchka,1939.0,1930,8
+M0394,main,L428400,conv_63322,6,u6913,f,u6921,m,m463,one flew over the cuckoo's nest,1975.0,1970,10
+M0395,main,L254067,conv_10991,1,u1195,m,u1188,f,m78,grand hotel,1932.0,1930,20
+M0396,main,L125858,conv_41615,12,u4418,m,u4421,m,m293,charade,1963.0,1960,5
+M0397,main,L589047,conv_29304,0,u3171,f,u3162,f,m208,the birds,1963.0,1960,6
+M0398,main,L340415,conv_57724,2,u6257,m,u6259,m,m418,lake placid,1999.0,1990,3
+M0399,main,L623084,conv_78633,1,u8563,f,u8552,m,m581,traffic,2000.0,2000,26
+M0400,main,L253831,conv_10887,5,u1184,m,u1188,f,m78,grand hotel,1932.0,1930,7
+M0401,main,L46912,conv_34951,3,u3730,f,u3727,m,m246,the apartment,1960.0,1960,3
+M0402,main,L245817,conv_51315,7,u5545,m,u5538,m,m369,the godfather: part ii,1974.0,1970,10
+M0403,main,L48001,conv_35127,5,u3745,m,u3763,m,m247,apocalypse now,1979.0,1970,13
+M0404,main,L501382,conv_69503,2,u7593,f,u7588,m,m513,shampoo,1975.0,1970,28
+M0405,main,L8640,conv_1105,1,u123,f,u128,m,m8,a nightmare on elm street: the dream child,1989.0,1980,12
+M0406,main,L485073,conv_24610,1,u2638,m,u2644,m,m172,scary movie 2,2001.0,2000,8
+M0407,main,L521595,conv_70867,9,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,4
+M0408,main,L418986,conv_21093,0,u2309,m,u2305,m,m149,ninotchka,1939.0,1930,4
+M0409,main,L569810,conv_29109,4,u3139,m,u3140,m,m205,taxi driver,1976.0,1970,13
+M0410,main,L218313,conv_49601,3,u5317,m,u5323,f,m353,five easy pieces,1970.0,1970,5
+M0411,main,L349390,conv_16896,4,u1799,m,u1804,f,m119,life as a house,2001.0,2000,10
+M0412,main,L469212,conv_23599,0,u2557,m,u2550,m,m165,rko 281,1999.0,1990,9
+M0413,main,L431254,conv_63729,2,u6951,m,u6967,m,m465,on the waterfront,1954.0,1950,40
+M0414,main,L751,conv_124,1,u6,f,u5,f,m0,10 things i hate about you,1999.0,1990,11
+M0415,main,L88198,conv_4522,6,u540,f,u532,m,m34,blade runner,1982.0,1980,7
+M0416,main,L169933,conv_45858,6,u4896,m,u4902,f,m326,do the right thing,1989.0,1980,3
+M0417,main,L273002,conv_53521,3,u5804,f,u5803,f,m384,heavenly creatures,1994.0,1990,4
+M0418,main,L152378,conv_6645,3,u740,m,u743,m,m47,dark star,1974.0,1970,28
+M0419,main,L295700,conv_13167,11,u1420,f,u1416,m,m94,the hustler,1961.0,1960,20
+M0420,main,L222277,conv_8760,2,u976,m,u980,m,m63,frankenstein,1931.0,1930,10
+M0421,main,L274813,conv_11981,5,u1307,f,u1311,m,m87,hellraiser,1987.0,1980,6
+M0422,main,L251197,conv_10809,4,u1178,f,u1169,m,m77,the graduate,1967.0,1960,6
+M0423,main,L638051,conv_80221,6,u8749,f,u8744,m,m593,verdict,1974.0,1970,30
+M0424,main,L552824,conv_73088,11,u7925,m,u7926,m,m536,dr. strangelove or: how i learned to stop worrying and love the bomb,1964.0,1960,10
+M0425,main,L370766,conv_18586,0,u2012,f,u2010,m,m130,marty,1955.0,1950,8
+M0426,main,L311215,conv_14398,6,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,7
+M0427,main,L356961,conv_17559,3,u1898,m,u1890,m,m124,lost horizon,1937.0,1930,14
+M0428,main,L624474,conv_78907,4,u8598,m,u8604,m,m583,star trek v: the final frontier,1989.0,1980,9
+M0429,main,L28666,conv_33825,2,u3605,m,u3604,f,m238,all about eve,1950.0,1950,13
+M0430,main,L565209,conv_74445,2,u8066,m,u8067,f,m546,sweet smell of success,1957.0,1950,11
+M0431,main,L638821,conv_80363,0,u8762,f,u8767,m,m594,vertigo,1958.0,1950,5
+M0432,main,L28374,conv_33848,3,u3606,f,u3605,m,m238,all about eve,1950.0,1950,8
+M0433,main,L409825,conv_62576,4,u6829,f,u6822,m,m455,nothing but a man,1964.0,1960,9
+M0434,main,L462820,conv_23984,0,u2592,m,u2585,m,m168,rebel without a cause,1955.0,1950,8
+M0435,main,L395530,conv_19826,2,u2176,m,u2157,f,m140,mr. deeds goes to town,1936.0,1930,55
+M0436,main,L474467,conv_24406,1,u2621,m,u2632,m,m171,roughshod,1949.0,1940,10
+M0437,main,L461361,conv_23849,1,u2575,f,u2574,m,m167,rear window,1954.0,1950,4
+M0438,main,L464211,conv_24158,0,u2603,m,u2596,m,m169,reindeer games,2000.0,2000,5
+M0439,main,L42473,conv_34490,0,u3686,f,u3681,m,m243,annie hall,1977.0,1970,3
+M0440,main,L151001,conv_44364,0,u4719,f,u4725,f,m313,the curse of the cat people,1944.0,1940,4
+M0441,main,L501959,conv_69582,2,u7594,f,u7588,m,m513,shampoo,1975.0,1970,6
+M0442,main,L359068,conv_58708,1,u6393,f,u6398,m,m426,lost souls,2000.0,2000,23
+M0443,main,L96938,conv_4925,0,u574,m,u580,f,m36,blue velvet,1986.0,1980,10
+M0444,main,L337592,conv_57460,0,u6230,m,u6223,f,m416,kramer vs. kramer,1979.0,1970,4
+M0445,main,L197684,conv_47934,2,u5138,f,u5140,m,m341,the exorcist,1973.0,1970,12
+M0446,main,L439382,conv_64300,2,u7017,m,u7025,f,m469,peggy sue got married,1986.0,1980,5
+M0447,main,L296342,conv_54957,0,u5982,m,u5981,f,m396,i walked with a zombie,1943.0,1940,51
+M0448,main,L346619,conv_16648,8,u1785,m,u1784,m,m118,legend,1985.0,1980,19
+M0449,main,L133037,conv_42230,2,u4494,m,u4498,m,m297,nuovo cinema paradiso,1988.0,1980,13
+M0450,main,L319366,conv_15281,1,u1646,f,u1642,m,m108,jaws,1975.0,1970,6
+M0451,main,L460343,conv_66219,0,u7226,f,u7224,m,m487,rambling rose,1991.0,1990,4
+M0452,main,L295372,conv_13144,0,u1416,m,u1420,f,m94,the hustler,1961.0,1960,15
+M0453,main,L594497,conv_76334,2,u8284,m,u8286,f,m563,the leopard man,1943.0,1940,3
+M0454,main,L594854,conv_76371,1,u8286,f,u8285,m,m563,the leopard man,1943.0,1940,10
+M0455,main,L324807,conv_56182,0,u6114,m,u6109,f,m405,jaws: the revenge,1987.0,1980,5
+M0456,main,L194334,conv_7500,2,u867,m,u859,f,m55,eternal sunshine of the spotless mind,2004.0,2000,3
+M0457,main,L470998,conv_66705,1,u7295,m,u7288,f,m492,who framed roger rabbit,1988.0,1980,5
+M0458,main,L46671,conv_35004,11,u3727,m,u3738,m,m246,the apartment,1960.0,1960,25
+M0459,main,L15383,conv_33102,4,u3561,m,u3574,m,m235,a hard day's night,1964.0,1960,3
+M0460,main,L603135,conv_77149,0,u8401,f,u8400,m,m569,the thin man,1934.0,1930,9
+M0461,main,L602593,conv_77092,3,u8406,f,u8396,f,m569,the thin man,1934.0,1930,8
+M0462,main,L632785,conv_79531,4,u8674,f,u8677,m,m588,u-turn,1973.0,1970,5
+M0463,main,L43787,conv_34757,9,u3708,f,u3707,m,m244,the anniversary party,2001.0,2000,5
+M0464,main,L11244,conv_32916,0,u3545,m,u3532,f,m233,l'avventura,1960.0,1960,5
+M0465,main,L616529,conv_78007,1,u8475,f,u8472,m,m575,transatlantic merry-go-round,1934.0,1930,17
+M0466,main,L602723,conv_77007,0,u8398,f,u8391,f,m569,the thin man,1934.0,1930,7
+M0467,main,L126628,conv_41599,21,u4421,m,u4415,m,m293,charade,1963.0,1960,36
+M0468,main,L152119,conv_6631,0,u741,m,u740,m,m47,dark star,1974.0,1970,7
+M0469,main,L11213,conv_32909,1,u3532,f,u3545,m,m233,l'avventura,1960.0,1960,31
+M0470,main,L144016,conv_43360,1,u4622,m,u4623,m,m305,cool hand luke,1967.0,1960,5
+M0471,main,L419201,conv_21208,4,u2314,f,u2312,m,m149,ninotchka,1939.0,1930,22
+M0472,main,L604050,conv_30115,3,u3230,m,u3235,f,m214,the time machine,2002.0,2000,19
+M0473,main,L603492,conv_77166,12,u8401,f,u8400,m,m569,the thin man,1934.0,1930,6
+M0474,main,L28593,conv_33605,7,u3602,f,u3599,m,m238,all about eve,1950.0,1950,3
+M0475,main,L44734,conv_34819,0,u3713,f,u3714,f,m244,the anniversary party,2001.0,2000,6
+M0476,main,L296516,conv_13194,2,u1424,m,u1422,f,m95,i am legend,2007.0,2000,5
+M0477,main,L169057,conv_6992,2,u779,m,u781,m,m50,donnie darko,2001.0,2000,48
+M0478,main,L234281,conv_50896,3,u5495,f,u5496,m,m366,the getaway,1972.0,1970,7
+M0479,main,L428202,conv_63315,1,u6913,f,u6921,m,m463,one flew over the cuckoo's nest,1975.0,1970,8
+M0480,main,L270254,conv_11635,2,u1273,f,u1272,m,m84,harold and maude,1971.0,1970,19
+M0481,main,L603464,conv_77163,14,u8401,f,u8400,m,m569,the thin man,1934.0,1930,8
+M0482,main,L445138,conv_22947,1,u2495,m,u2485,f,m161,platinum blonde,1931.0,1930,13
+M0483,main,L295949,conv_13089,5,u1416,m,u1413,m,m94,the hustler,1961.0,1960,7
+M0484,main,L81075,conv_37747,0,u3993,m,u4011,m,m266,being there,1979.0,1970,8
+M0485,main,L603302,conv_77117,1,u8400,m,u8398,f,m569,the thin man,1934.0,1930,8
+M0486,main,L615911,conv_77868,1,u8467,m,u8470,m,m575,transatlantic merry-go-round,1934.0,1930,6
+M0487,main,L461326,conv_23797,6,u2578,f,u2574,m,m167,rear window,1954.0,1950,14
+M0488,main,L254924,conv_52116,1,u5652,m,u5628,m,m374,the grapes of wrath,1940.0,1940,5
+M0489,main,L46783,conv_35088,13,u3730,f,u3738,m,m246,the apartment,1960.0,1960,3
+M0490,main,L36353,conv_2418,3,u313,m,u308,m,m19,american outlaws,2001.0,2000,5
+M0491,main,L429091,conv_63306,5,u6913,f,u6914,m,m463,one flew over the cuckoo's nest,1975.0,1970,10
+M0492,main,L620076,conv_78400,4,u8524,m,u8533,f,m578,to sleep with anger,1990.0,1990,38
+M0493,main,L310499,conv_14310,0,u1530,f,u1535,f,m103,it happened one night,1934.0,1930,10
+M0494,main,L144085,conv_43312,1,u4620,m,u4622,m,m305,cool hand luke,1967.0,1960,15
+M0495,main,L283553,conv_12355,6,u1357,m,u1356,m,m90,his girl friday,1940.0,1940,15
+M0496,main,L409830,conv_62577,0,u6829,f,u6822,m,m455,nothing but a man,1964.0,1960,10
+M0497,main,L47370,conv_34980,2,u3727,m,u3730,f,m246,the apartment,1960.0,1960,13
+M0498,main,L308207,conv_55367,1,u6020,f,u6019,f,m400,i still know what you did last summer,1998.0,1990,13
+M0499,main,L568449,conv_74556,2,u8088,m,u8081,m,m548,taking sides,2001.0,2000,14
+M0500,main,L299317,conv_13426,1,u1457,m,u1454,m,m98,indiana jones and the last crusade,1989.0,1980,11
+M0501,main,L283843,conv_12584,2,u1375,m,u1364,f,m90,his girl friday,1940.0,1940,58
+M0502,main,L251036,conv_10835,0,u1169,m,u1177,f,m77,the graduate,1967.0,1960,10
+M0503,main,L37259,conv_2692,1,u327,m,u337,m,m20,american psycho,2000.0,2000,6
+M0504,main,L446444,conv_64999,2,u7101,m,u7088,f,m475,playback,1996.0,1990,3
+M0505,main,L279629,conv_12091,6,u1319,f,u1323,m,m88,high fidelity,2000.0,2000,9
+M0506,main,L426685,conv_22142,0,u2414,m,u2415,m,m154,an officer and a gentleman,1982.0,1980,11
+M0507,main,L588771,conv_29389,3,u3172,m,u3171,f,m208,the birds,1963.0,1960,12
+M0508,main,L349727,conv_16761,0,u1794,f,u1799,m,m119,life as a house,2001.0,2000,4
+M0509,main,L125221,conv_41343,1,u4404,m,u4405,m,m292,the crying game,1992.0,1990,4
+M0510,main,L370804,conv_18518,0,u2001,m,u2010,m,m130,marty,1955.0,1950,5
+M0511,main,L632411,conv_79562,18,u8675,m,u8677,m,m588,u-turn,1973.0,1970,7
+M0512,main,L462752,conv_24032,2,u2586,f,u2585,m,m168,rebel without a cause,1955.0,1950,3
+M0513,main,L419459,conv_21225,8,u2312,m,u2314,f,m149,ninotchka,1939.0,1930,3
+M0514,main,L639040,conv_80292,2,u8761,f,u8767,m,m594,vertigo,1958.0,1950,10
+M0515,main,L644119,conv_80881,1,u8819,m,u8808,f,m598,wag the dog,1997.0,1990,3
+M0516,main,L254697,conv_52169,3,u5640,f,u5652,m,m374,the grapes of wrath,1940.0,1940,9
+M0517,main,L73180,conv_37022,5,u3930,m,u3926,f,m260,batman and robin,1949.0,1940,6
+M0518,main,L37364,conv_2585,0,u334,f,u327,m,m20,american psycho,2000.0,2000,4
+M0519,main,L253253,conv_10882,16,u1184,m,u1188,f,m78,grand hotel,1932.0,1930,17
+M0520,main,L555504,conv_73439,8,u7956,f,u7959,m,m539,sunset blvd.,1950.0,1950,27
+M0521,main,L282536,conv_12200,2,u1351,m,u1326,f,m89,highlander,1986.0,1980,3
+M0522,main,L487622,conv_68438,0,u7472,f,u7484,f,m505,scream 2,1997.0,1990,5
+M0523,main,L521609,conv_70868,0,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,3
+M0524,main,L295645,conv_13068,6,u1413,m,u1416,m,m94,the hustler,1961.0,1960,7
+M0525,main,L267349,conv_11485,18,u1248,m,u1244,f,m82,"happy birthday, wanda june",1971.0,1970,20
+M0526,main,L142199,conv_43058,7,u4595,f,u4592,m,m303,conspiracy theory,1997.0,1990,11
+M0527,main,L150575,conv_44295,1,u4718,f,u4726,m,m313,the curse of the cat people,1944.0,1940,3
+M0528,main,L216183,conv_49374,1,u5302,m,u5296,m,m351,rambo: first blood part ii,1985.0,1980,9
+M0529,main,L603496,conv_77166,16,u8401,f,u8400,m,m569,the thin man,1934.0,1930,6
+M0530,main,L406835,conv_62397,23,u6797,m,u6801,m,m453,nashville,1975.0,1970,8
+M0531,main,L602501,conv_77037,1,u8391,f,u8406,f,m569,the thin man,1934.0,1930,7
+M0532,main,L197481,conv_47955,0,u5138,f,u5151,f,m341,the exorcist,1973.0,1970,5
+M0533,main,L461941,conv_24041,12,u2593,m,u2586,f,m168,rebel without a cause,1955.0,1950,44
+M0534,main,L291425,conv_54415,1,u5925,f,u5923,m,m391,house on haunted hill,1999.0,1990,5
+M0535,main,L47541,conv_35018,17,u3738,m,u3727,m,m246,the apartment,1960.0,1960,3
+M0536,main,L73206,conv_36981,3,u3922,m,u3930,m,m260,batman and robin,1949.0,1940,8
+M0537,main,L310726,conv_14357,0,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,4
+M0538,main,L484122,conv_68212,3,u7437,f,u7442,m,m503,say anything...,1989.0,1980,4
+M0539,main,L295292,conv_13138,3,u1420,f,u1416,m,m94,the hustler,1961.0,1960,8
+M0540,main,L254497,conv_52168,3,u5640,f,u5652,m,m374,the grapes of wrath,1940.0,1940,17
+M0541,main,L431525,conv_63834,1,u6961,m,u6967,m,m465,on the waterfront,1954.0,1950,4
+M0542,main,L296241,conv_54894,5,u5976,f,u5981,f,m396,i walked with a zombie,1943.0,1940,26
+M0543,main,L454076,conv_65885,30,u7175,f,u7177,m,m482,psycho,1960.0,1960,10
+M0544,main,L393260,conv_19728,22,u2147,f,u2144,m,m139,mr. smith goes to washington,1939.0,1930,20
+M0545,main,L290403,conv_12753,3,u1388,f,u1389,m,m92,house of 1000 corpses,2003.0,2000,10
+M0546,main,L467824,conv_66492,0,u7255,m,u7260,f,m490,the rocky horror picture show,1975.0,1970,12
+M0547,main,L171215,conv_7040,0,u796,f,u810,f,m51,drop dead gorgeous,1999.0,1990,23
+M0548,main,L234352,conv_50900,0,u5495,f,u5496,m,m366,the getaway,1972.0,1970,4
+M0549,main,L133663,conv_42297,1,u4520,m,u4500,m,m298,citizen kane,1941.0,1940,7
+M0550,main,L310879,conv_14371,1,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,5
+M0551,main,L409604,conv_62559,3,u6829,f,u6822,m,m455,nothing but a man,1964.0,1960,9
+M0552,main,L260755,conv_52737,1,u5712,f,u5716,m,m378,halloween 4: the return of michael myers,1988.0,1980,7
+M0553,main,L357098,conv_17650,1,u1893,m,u1894,m,m124,lost horizon,1937.0,1930,7
+M0554,main,L149552,conv_44179,0,u4708,f,u4717,m,m312,cruel intentions,1999.0,1990,8
+M0555,main,L411890,conv_20585,1,u2253,m,u2256,m,m145,next friday,2000.0,2000,21
+M0556,main,L28521,conv_33801,5,u3606,f,u3604,f,m238,all about eve,1950.0,1950,34
+M0557,main,L27862,conv_33667,1,u3600,m,u3606,f,m238,all about eve,1950.0,1950,5
+M0558,main,L254156,conv_10967,4,u1191,m,u1188,f,m78,grand hotel,1932.0,1930,13
+M0559,main,L461279,conv_23844,1,u2575,f,u2574,m,m167,rear window,1954.0,1950,14
+M0560,main,L134073,conv_42362,5,u4515,f,u4505,f,m298,citizen kane,1941.0,1940,7
+M0561,main,L634779,conv_79810,0,u8702,f,u8697,m,m590,unbreakable,2000.0,2000,20
+M0562,main,L549645,conv_72661,0,u7883,f,u7879,m,m533,stepmom,1998.0,1990,5
+M0563,main,L10427,conv_32787,0,u3525,f,u3520,m,m232,the abyss,1989.0,1980,6
+M0564,main,L55735,conv_1155,1,u135,m,u132,m,m9,the atomic submarine,1959.0,1950,11
+M0565,main,L589013,conv_29302,13,u3162,f,u3171,f,m208,the birds,1963.0,1960,21
+M0566,main,L390830,conv_61136,7,u6652,m,u6649,f,m444,moonstruck,1987.0,1980,3
+M0567,main,L461575,conv_23864,1,u2574,m,u2575,f,m167,rear window,1954.0,1950,16
+M0568,main,L28009,conv_33780,12,u3602,f,u3606,f,m238,all about eve,1950.0,1950,8
+M0569,main,L661802,conv_32690,2,u3518,f,u3519,m,m231,the woodsman,2004.0,2000,4
+M0570,main,L118919,conv_5845,2,u666,m,u665,m,m42,casablanca,1942.0,1940,10
+M0571,main,L418951,conv_21266,2,u2320,f,u2312,m,m149,ninotchka,1939.0,1930,14
+M0572,main,L654941,conv_81857,1,u8914,m,u8909,f,m606,wild things,1998.0,1990,7
+M0573,main,L35441,conv_2235,2,u288,m,u287,m,m18,american madness,1932.0,1930,16
+M0574,main,L521525,conv_70857,0,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,3
+M0575,main,L359480,conv_58898,3,u6413,m,u6412,f,m427,love & basketball,2000.0,2000,7
+M0576,main,L374986,conv_18845,1,u2045,m,u2036,f,m132,meet john doe,1941.0,1940,5
+M0577,main,L11203,conv_32907,2,u3532,f,u3545,m,m233,l'avventura,1960.0,1960,60
+M0578,main,L14937,conv_33175,0,u3572,m,u3568,m,m235,a hard day's night,1964.0,1960,17
+M0579,main,L18547,conv_1470,0,u193,m,u180,f,m12,airplane ii: the sequel,1982.0,1980,5
+M0580,main,L27993,conv_33725,14,u3606,f,u3601,f,m238,all about eve,1950.0,1950,5
+M0581,main,L419891,conv_21204,18,u2312,m,u2315,m,m149,ninotchka,1939.0,1930,3
+M0582,main,L631,conv_138,5,u9,m,u5,f,m0,10 things i hate about you,1999.0,1990,3
+M0583,main,L459943,conv_66057,2,u7220,m,u7227,f,m487,rambling rose,1991.0,1990,3
+M0584,main,L508116,conv_70045,0,u7628,m,u7629,m,m516,sister act,1992.0,1990,43
+M0585,main,L4021,conv_537,1,u56,m,u60,m,m3,2001: a space odyssey,1968.0,1960,6
+M0586,main,L490103,conv_68817,1,u7524,m,u7518,m,m508,seven,1979.0,1970,7
+M0587,main,L515527,conv_26077,0,u2820,f,u2815,m,m185,smokey and the bandit,1977.0,1970,3
+M0588,main,L311550,conv_14303,0,u1548,m,u1530,f,m103,it happened one night,1934.0,1930,16
+M0589,main,L584605,conv_75653,1,u8218,m,u8211,f,m558,the third man,1949.0,1940,9
+M0590,main,L496491,conv_24800,0,u2675,f,u2671,m,m174,the seventh victim,1943.0,1940,7
+M0591,main,L640410,conv_80559,8,u8773,f,u8771,m,m595,very bad things,1998.0,1990,32
+M0592,main,L497690,conv_25029,7,u2692,m,u2688,f,m175,"sex, lies, and videotape",1989.0,1980,5
+M0593,main,L12508,conv_1277,1,u154,m,u147,f,m10,affliction,1997.0,1990,38
+M0594,main,L67115,conv_36651,0,u3879,f,u3882,m,m257,basic instinct,1992.0,1990,4
+M0595,main,L496352,conv_24791,0,u2671,m,u2675,f,m174,the seventh victim,1943.0,1940,17
+M0596,main,L532720,conv_26613,0,u2884,m,u2894,m,m190,stalag 17,1953.0,1950,8
+M0597,main,L197922,conv_47939,2,u5138,f,u5144,m,m341,the exorcist,1973.0,1970,9
+M0598,main,L633132,conv_79543,5,u8674,f,u8677,m,m588,u-turn,1973.0,1970,7
+M0599,main,L555920,conv_73641,0,u7974,f,u7975,f,m540,supergirl,1984.0,1980,3
+M0600,main,L311026,conv_14459,1,u1552,m,u1548,m,m103,it happened one night,1934.0,1930,3
+M0601,main,L283644,conv_12410,3,u1357,m,u1364,f,m90,his girl friday,1940.0,1940,10
+M0602,main,L638742,conv_80345,2,u8762,f,u8767,m,m594,vertigo,1958.0,1950,6
+M0603,main,L462456,conv_23993,1,u2585,m,u2589,f,m168,rebel without a cause,1955.0,1950,7
+M0604,main,L117381,conv_40561,3,u4317,m,u4315,f,m288,bull durham,1988.0,1980,5
+M0605,main,L95324,conv_38827,7,u4125,f,u4136,m,m276,blow,2001.0,2000,12
+M0606,main,L496314,conv_24824,0,u2675,f,u2673,m,m174,the seventh victim,1943.0,1940,7
+M0607,main,L614330,conv_77689,5,u8443,f,u8437,m,m573,trouble in paradise,1932.0,1930,6
+M0608,main,L523597,conv_71107,0,u7750,f,u7739,m,m524,sounder,1972.0,1970,5
+M0609,main,L267872,conv_11437,0,u1244,f,u1241,m,m82,"happy birthday, wanda june",1971.0,1970,6
+M0610,main,L118505,conv_5878,1,u666,m,u667,m,m42,casablanca,1942.0,1940,14
+M0611,main,L370476,conv_18583,18,u2010,m,u2012,f,m130,marty,1955.0,1950,4
+M0612,main,L196005,conv_7831,5,u888,m,u884,m,m57,event horizon,1997.0,1990,10
+M0613,main,L262963,conv_53104,4,u5746,f,u5747,f,m380,hannah and her sisters,1986.0,1980,3
+M0614,main,L14506,conv_33026,2,u3555,f,u3549,f,m234,agnes of god,1985.0,1980,9
+M0615,main,L338524,conv_16019,10,u1712,m,u1725,m,m113,krull,1983.0,1980,10
+M0616,main,L390165,conv_19498,1,u2120,f,u2124,m,m137,monkeybone,2001.0,2000,4
+M0617,main,L665425,conv_82959,0,u9017,m,u9022,m,m615,young frankenstein,1974.0,1970,43
+M0618,main,L279365,conv_12132,1,u1320,f,u1323,m,m88,high fidelity,2000.0,2000,27
+M0619,main,L613614,conv_77667,2,u8437,m,u8443,f,m573,trouble in paradise,1932.0,1930,9
+M0620,main,L86343,conv_4244,1,u511,m,u519,m,m32,black snake moan,2006.0,2000,4
+M0621,main,L133987,conv_42313,0,u4500,m,u4507,m,m298,citizen kane,1941.0,1940,3
+M0622,main,L643714,conv_80876,0,u8808,f,u8819,m,m598,wag the dog,1997.0,1990,20
+M0623,main,L73031,conv_36979,1,u3930,m,u3922,m,m260,batman and robin,1949.0,1940,3
+M0624,main,L254213,conv_10969,1,u1191,m,u1188,f,m78,grand hotel,1932.0,1930,12
+M0625,main,L319831,conv_15254,2,u1642,m,u1652,m,m108,jaws,1975.0,1970,5
+M0626,main,L615729,conv_77953,0,u8476,m,u8468,m,m575,transatlantic merry-go-round,1934.0,1930,13
+M0627,main,L279534,conv_12144,4,u1321,f,u1323,m,m88,high fidelity,2000.0,2000,5
+M0628,main,L190450,conv_47498,1,u5076,f,u5078,m,m336,erin brockovich,2000.0,2000,3
+M0629,main,L612168,conv_77435,6,u8419,m,u8414,f,m571,thx 1138,1971.0,1970,14
+M0630,main,L330081,conv_15505,1,u1662,f,u1660,f,m109,juno,2007.0,2000,25
+M0631,main,L589096,conv_29351,0,u3168,f,u3172,m,m208,the birds,1963.0,1960,6
+M0632,main,L639147,conv_80307,1,u8767,m,u8761,f,m594,vertigo,1958.0,1950,6
+M0633,main,L30749,conv_1979,2,u253,f,u260,m,m16,amadeus,1984.0,1980,4
+M0634,main,L235839,conv_9842,1,u1089,m,u1086,m,m71,ghost ship,2002.0,2000,18
+M0635,main,L296075,conv_54886,1,u5975,f,u5976,f,m396,i walked with a zombie,1943.0,1940,11
+M0636,main,L445109,conv_23006,3,u2488,m,u2495,m,m161,platinum blonde,1931.0,1930,14
+M0637,main,L141197,conv_6374,7,u715,f,u713,m,m45,confidence,2003.0,2000,4
+M0638,main,L589003,conv_29302,3,u3171,f,u3162,f,m208,the birds,1963.0,1960,8
+M0639,main,L423388,conv_21771,0,u2369,f,u2374,m,m152,nurse betty,2000.0,2000,6
+M0640,main,L565720,conv_74334,2,u8067,f,u8059,m,m546,sweet smell of success,1957.0,1950,3
+M0641,main,L150798,conv_44358,1,u4719,f,u4725,f,m313,the curse of the cat people,1944.0,1940,3
+M0642,main,L172459,conv_7149,12,u820,m,u818,m,m52,duck soup,1933.0,1930,36
+M0643,main,L582090,conv_75613,0,u8207,f,u8208,m,m557,the cell,2000.0,2000,7
+M0644,main,L370875,conv_18536,1,u2012,f,u2003,f,m130,marty,1955.0,1950,21
+M0645,main,L46721,conv_34943,5,u3730,f,u3727,m,m246,the apartment,1960.0,1960,6
+M0646,main,L266763,conv_53326,0,u5783,f,u5785,m,m382,happy campers,2001.0,2000,7
+M0647,main,L134426,conv_42599,14,u4540,f,u4525,m,m299,clerks.,1994.0,1990,5
+M0648,main,L262418,conv_53060,1,u5746,f,u5750,m,m380,hannah and her sisters,1986.0,1980,13
+M0649,main,L597524,conv_76405,5,u8292,f,u8300,m,m564,the lost son,1999.0,1990,3
+M0650,main,L374618,conv_18890,1,u2036,f,u2041,m,m132,meet john doe,1941.0,1940,5
+M0651,main,L403143,conv_61787,0,u6760,f,u6747,m,m450,my girl 2,1994.0,1990,6
+M0652,main,L256900,conv_52313,2,u5669,f,u5668,m,m375,grosse pointe blank,1997.0,1990,4
+M0653,main,L523580,conv_71069,3,u7748,m,u7739,m,m524,sounder,1972.0,1970,16
+M0654,main,L540569,conv_27963,0,u3026,f,u3034,m,m198,star trek: nemesis,2002.0,2000,4
+M0655,main,L410970,conv_62796,5,u6855,f,u6860,f,m458,never been kissed,1999.0,1990,26
+M0656,main,L501539,conv_69660,1,u7594,f,u7603,m,m513,shampoo,1975.0,1970,12
+M0657,main,L522913,conv_70986,1,u7729,f,u7730,m,m523,the wedding date,2005.0,2000,12
+M0658,main,L150822,conv_44380,1,u4721,m,u4725,f,m313,the curse of the cat people,1944.0,1940,3
+M0659,main,L359995,conv_58895,1,u6416,m,u6412,f,m427,love & basketball,2000.0,2000,4
+M0660,main,L284436,conv_12418,16,u1357,m,u1364,f,m90,his girl friday,1940.0,1940,13
+M0661,main,L328186,conv_14501,0,u1558,m,u1568,m,m104,jfk,1991.0,1990,58
+M0662,main,L237518,conv_10184,9,u1106,f,u1108,m,m72,ghost world,2001.0,2000,7
+M0663,main,L291448,conv_54418,0,u5923,m,u5925,f,m391,house on haunted hill,1999.0,1990,13
+M0664,main,L660336,conv_82397,0,u8950,f,u8960,m,m610,the wizard of oz,1939.0,1930,9
+M0665,main,L496683,conv_24786,1,u2670,f,u2675,f,m174,the seventh victim,1943.0,1940,5
+M0666,main,L497637,conv_24965,1,u2687,f,u2692,m,m175,"sex, lies, and videotape",1989.0,1980,5
+M0667,main,L310648,conv_14349,5,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,6
+M0668,main,L10825,conv_32894,1,u3545,m,u3532,f,m233,l'avventura,1960.0,1960,9
+M0669,main,L47545,conv_35018,21,u3738,m,u3727,m,m246,the apartment,1960.0,1960,6
+M0670,main,L51307,conv_35525,3,u3784,m,u3781,m,m249,as good as it gets,1997.0,1990,3
+M0671,main,L218802,conv_49680,0,u5319,f,u5317,m,m353,five easy pieces,1970.0,1970,6
+M0672,main,L339107,conv_57546,1,u6242,m,u6251,m,m417,kundun,1997.0,1990,31
+M0673,main,L645331,conv_81109,2,u8831,m,u8830,m,m599,wall street,1987.0,1980,24
+M0674,main,L445139,conv_22948,0,u2485,f,u2495,m,m161,platinum blonde,1931.0,1930,4
+M0675,main,L419669,conv_21243,5,u2312,m,u2314,f,m149,ninotchka,1939.0,1930,8
+M0676,main,L594675,conv_76291,0,u8280,m,u8285,m,m563,the leopard man,1943.0,1940,8
+M0677,main,L454277,conv_65848,2,u7180,m,u7173,f,m482,psycho,1960.0,1960,3
+M0678,main,L279481,conv_12088,0,u1319,f,u1323,m,m88,high fidelity,2000.0,2000,38
+M0679,main,L150552,conv_44293,7,u4718,f,u4726,m,m313,the curse of the cat people,1944.0,1940,14
+M0680,main,L219695,conv_49914,3,u5360,m,u5345,m,m355,fletch,1985.0,1980,5
+M0681,main,L631116,conv_31570,1,u3390,f,u3373,m,m224,twin peaks: fire walk with me,1992.0,1990,3
+M0682,main,L469079,conv_23586,1,u2550,m,u2557,m,m165,rko 281,1999.0,1990,4
+M0683,main,L310992,conv_14456,4,u1552,m,u1548,m,m103,it happened one night,1934.0,1930,17
+M0684,main,L405222,conv_20441,1,u2221,m,u2220,m,m143,mystery men,1999.0,1990,15
+M0685,main,L172464,conv_7150,0,u820,m,u818,m,m52,duck soup,1933.0,1930,13
+M0686,main,L589616,conv_29359,0,u3168,f,u3172,m,m208,the birds,1963.0,1960,7
+M0687,main,L596144,conv_29726,1,u3216,m,u3208,m,m212,the lost boys,1987.0,1980,9
+M0688,main,L521084,conv_70724,1,u7712,m,u7713,m,m522,some like it hot,1959.0,1950,8
+M0689,main,L462536,conv_24014,3,u2585,m,u2586,f,m168,rebel without a cause,1955.0,1950,7
+M0690,main,L556435,conv_73669,1,u7979,f,u7978,f,m540,supergirl,1984.0,1980,8
+M0691,main,L632780,conv_79530,26,u8674,f,u8677,m,m588,u-turn,1973.0,1970,5
+M0692,main,L353012,conv_17371,4,u1858,f,u1859,m,m122,logan's run,1976.0,1970,11
+M0693,main,L438802,conv_64367,2,u7023,f,u7025,f,m469,peggy sue got married,1986.0,1980,24
+M0694,main,L387001,conv_17951,0,u1919,m,u1916,m,m126,minority report,2002.0,2000,5
+M0695,main,L461165,conv_23795,1,u2574,m,u2578,f,m167,rear window,1954.0,1950,4
+M0696,main,L270628,conv_11672,3,u1273,f,u1272,m,m84,harold and maude,1971.0,1970,12
+M0697,main,L413710,conv_20868,4,u2292,m,u2286,f,m147,the night of the hunter,1955.0,1950,6
+M0698,main,L126652,conv_41505,1,u4421,m,u4411,m,m293,charade,1963.0,1960,7
+M0699,main,L589980,conv_29524,1,u3180,m,u3182,m,m209,the body snatcher,1945.0,1940,41
+M0700,main,L326199,conv_56411,0,u6121,m,u6125,f,m407,jennifer eight,1992.0,1990,6
+M0701,main,L219796,conv_49897,12,u5345,m,u5359,m,m355,fletch,1985.0,1980,12
+M0702,main,L147840,conv_43985,0,u4682,m,u4688,f,m310,"crouching tiger, hidden dragon",2003.0,2000,11
+M0703,main,L267609,conv_11348,51,u1243,m,u1240,m,m82,"happy birthday, wanda june",1971.0,1970,6
+M0704,main,L147507,conv_43839,3,u4658,m,u4667,m,m309,crime spree,2003.0,2000,21
+M0705,main,L588837,conv_29294,0,u3162,f,u3171,f,m208,the birds,1963.0,1960,8
+M0706,main,L73142,conv_36947,2,u3919,m,u3923,m,m260,batman and robin,1949.0,1940,11
+M0707,main,L589784,conv_29481,0,u3178,m,u3182,m,m209,the body snatcher,1945.0,1940,8
+M0708,main,L221415,conv_8598,1,u955,f,u969,m,m62,frances,1982.0,1980,5
+M0709,main,L350185,conv_17223,1,u1846,m,u1839,m,m121,little nicky,2000.0,2000,14
+M0710,main,L522240,conv_26424,0,u2852,f,u2856,m,m188,someone to watch over me,1987.0,1980,4
+M0711,main,L199364,conv_48244,1,u5164,m,u5173,f,m342,the fabulous baker boys,1989.0,1980,9
+M0712,main,L27669,conv_33735,11,u3602,f,u3604,f,m238,all about eve,1950.0,1950,6
+M0713,main,L454480,conv_65868,4,u7173,f,u7180,m,m482,psycho,1960.0,1960,23
+M0714,main,L555609,conv_73497,5,u7965,f,u7959,m,m539,sunset blvd.,1950.0,1950,21
+M0715,main,L72740,conv_36933,1,u3923,m,u3919,m,m260,batman and robin,1949.0,1940,10
+M0716,main,L310477,conv_14308,4,u1535,f,u1530,f,m103,it happened one night,1934.0,1930,21
+M0717,main,L433527,conv_64061,1,u6983,f,u6981,m,m467,out of sight,1998.0,1990,27
+M0718,main,L500819,conv_69552,0,u7594,f,u7588,m,m513,shampoo,1975.0,1970,4
+M0719,main,L496381,conv_24765,6,u2667,m,u2675,f,m174,the seventh victim,1943.0,1940,24
+M0720,main,L194795,conv_7627,6,u864,f,u861,m,m55,eternal sunshine of the spotless mind,2004.0,2000,7
+M0721,main,L474479,conv_24342,1,u2629,f,u2621,m,m171,roughshod,1949.0,1940,11
+M0722,main,L470536,conv_66550,0,u7264,f,u7283,m,m491,rocky,1976.0,1970,5
+M0723,main,L565430,conv_74360,4,u8065,m,u8059,m,m546,sweet smell of success,1957.0,1950,24
+M0724,main,L521225,conv_70801,8,u7717,m,u7712,m,m522,some like it hot,1959.0,1950,34
+M0725,main,L552883,conv_73097,2,u7925,m,u7926,m,m536,dr. strangelove or: how i learned to stop worrying and love the bomb,1964.0,1960,13
+M0726,main,L659614,conv_82356,0,u8950,f,u8951,f,m610,the wizard of oz,1939.0,1930,7
+M0727,main,L119380,conv_5750,0,u663,m,u667,m,m42,casablanca,1942.0,1940,14
+M0728,main,L254695,conv_52169,1,u5640,f,u5652,m,m374,the grapes of wrath,1940.0,1940,4
+M0729,main,L295696,conv_13167,7,u1420,f,u1416,m,m94,the hustler,1961.0,1960,29
+M0730,main,L119021,conv_5802,2,u664,f,u665,m,m42,casablanca,1942.0,1940,3
+M0731,main,L47524,conv_35018,0,u3727,m,u3738,m,m246,the apartment,1960.0,1960,23
+M0732,main,L348437,conv_17039,0,u1827,m,u1811,m,m120,the life of david gale,2003.0,2000,8
+M0733,main,L233660,conv_9699,2,u1081,m,u1071,m,m70,get shorty,1995.0,1990,3
+M0734,main,L550578,conv_72831,24,u7894,m,u7889,f,m534,storytelling,2001.0,2000,5
+M0735,main,L404081,conv_62152,1,u6775,f,u6774,f,m452,my best friend's wedding,1997.0,1990,13
+M0736,main,L279182,conv_11999,1,u1313,m,u1323,m,m88,high fidelity,2000.0,2000,42
+M0737,main,L118914,conv_5871,0,u669,m,u666,m,m42,casablanca,1942.0,1940,11
+M0738,main,L32115,conv_2117,0,u274,m,u269,f,m17,an american werewolf in london,1981.0,1980,3
+M0739,main,L251646,conv_10720,10,u1169,m,u1172,f,m77,the graduate,1967.0,1960,4
+M0740,main,L465883,conv_24255,7,u2611,m,u2610,m,m170,reservoir dogs,1992.0,1990,12
+M0741,main,L644552,conv_80935,0,u8810,m,u8808,f,m598,wag the dog,1997.0,1990,12
+M0742,main,L26885,conv_1797,0,u237,f,u232,m,m15,aliens,1986.0,1980,20
+M0743,main,L622392,conv_78675,1,u8557,m,u8561,m,m581,traffic,2000.0,2000,15
+M0744,main,L254981,conv_52176,6,u5640,f,u5652,m,m374,the grapes of wrath,1940.0,1940,13
+M0745,main,L157395,conv_44866,1,u4782,m,u4776,m,m318,dead poets society,1989.0,1980,6
+M0746,main,L568380,conv_74545,2,u8081,m,u8083,f,m548,taking sides,2001.0,2000,15
+M0747,main,L446350,conv_64994,10,u7101,m,u7088,f,m475,playback,1996.0,1990,3
+M0748,main,L246638,conv_51483,5,u5562,m,u5572,m,m370,gods and monsters,1998.0,1990,14
+M0749,main,L356564,conv_58612,1,u6381,m,u6379,f,m425,lost in translation,2003.0,2000,6
+M0750,main,L270544,conv_11666,1,u1273,f,u1272,m,m84,harold and maude,1971.0,1970,4
+M0751,main,L82746,conv_37887,1,u4029,f,u4032,f,m267,being john malkovich,1999.0,1990,29
+M0752,main,L626883,conv_79054,1,u8622,m,u8623,m,m585,true lies,1994.0,1990,7
+M0753,main,L552845,conv_73091,4,u7926,m,u7925,m,m536,dr. strangelove or: how i learned to stop worrying and love the bomb,1964.0,1960,3
+M0754,main,L66101,conv_3840,0,u482,f,u479,m,m29,basic,2003.0,2000,22
+M0755,main,L612194,conv_77442,0,u8419,m,u8414,f,m571,thx 1138,1971.0,1970,11
+M0756,main,L28394,conv_33849,2,u3605,m,u3606,f,m238,all about eve,1950.0,1950,12
+M0757,main,L292323,conv_54585,1,u5942,f,u5937,f,m393,hellraiser iii: hell on earth,1992.0,1990,17
+M0758,main,L409941,conv_62584,1,u6829,f,u6822,m,m455,nothing but a man,1964.0,1960,4
+M0759,main,L15494,conv_33154,11,u3567,f,u3572,m,m235,a hard day's night,1964.0,1960,10
+M0760,main,L253530,conv_10896,2,u1190,f,u1184,m,m78,grand hotel,1932.0,1930,4
+M0761,main,L14664,conv_33095,6,u3555,f,u3557,f,m234,agnes of god,1985.0,1980,8
+M0762,main,L150834,conv_44369,1,u4720,f,u4725,f,m313,the curse of the cat people,1944.0,1940,3
+M0763,main,L100579,conv_39290,2,u4183,f,u4192,m,m279,the bridges of madison county,1995.0,1990,19
+M0764,main,L160738,conv_45153,3,u4805,f,u4808,m,m320,the deer hunter,1978.0,1970,9
+M0765,main,L626173,conv_31474,0,u3357,m,u3367,m,m223,true believer,1989.0,1980,9
+M0766,main,L28525,conv_33801,9,u3606,f,u3604,f,m238,all about eve,1950.0,1950,6
+M0767,main,L279095,conv_12074,1,u1319,f,u1323,m,m88,high fidelity,2000.0,2000,12
+M0768,main,L51809,conv_35489,4,u3777,f,u3784,m,m249,as good as it gets,1997.0,1990,14
+M0769,main,L374387,conv_18870,1,u2036,f,u2041,m,m132,meet john doe,1941.0,1940,33
+M0770,main,L182360,conv_46753,0,u4999,m,u4997,m,m332,l.a. confidential,1997.0,1990,11
+M0771,main,L626439,conv_31533,0,u3357,m,u3366,m,m223,true believer,1989.0,1980,13
+M0772,main,L28578,conv_33604,7,u3602,f,u3599,m,m238,all about eve,1950.0,1950,10
+M0773,main,L151495,conv_44496,9,u4737,m,u4729,f,m314,the curse,1987.0,1980,6
+M0774,main,L454434,conv_65861,7,u7180,m,u7173,f,m482,psycho,1960.0,1960,6
+M0775,main,L35708,conv_2457,1,u313,m,u312,m,m19,american outlaws,2001.0,2000,23
+M0776,main,L300265,conv_13610,1,u1468,f,u1463,m,m99,indiana jones and the temple of doom,1984.0,1980,7
+M0777,main,L28743,conv_33757,3,u3602,f,u3604,f,m238,all about eve,1950.0,1950,20
+M0778,main,L490213,conv_68974,2,u7533,m,u7531,m,m509,the searchers,1956.0,1950,8
+M0779,main,L13955,conv_33010,26,u3549,f,u3555,f,m234,agnes of god,1985.0,1980,10
+M0780,main,L345838,conv_16689,1,u1785,m,u1786,f,m118,legend,1985.0,1980,14
+M0781,main,L117252,conv_40608,3,u4317,m,u4325,m,m288,bull durham,1988.0,1980,16
+M0782,main,L639036,conv_80291,3,u8767,m,u8761,f,m594,vertigo,1958.0,1950,4
+M0783,main,L409434,conv_62617,6,u6833,m,u6822,m,m455,nothing but a man,1964.0,1960,7
+M0784,main,L452482,conv_65768,2,u7165,m,u7158,m,m481,the producers,1968.0,1960,48
+M0785,main,L475163,conv_24386,0,u2629,f,u2621,m,m171,roughshod,1949.0,1940,34
+M0786,main,L485280,conv_24597,1,u2637,f,u2644,m,m172,scary movie 2,2001.0,2000,10
+M0787,main,L145223,conv_43452,0,u4630,f,u4631,f,m306,copycat,1995.0,1990,22
+M0788,main,L295307,conv_13139,8,u1420,f,u1416,m,m94,the hustler,1961.0,1960,7
+M0789,main,L461155,conv_23792,0,u2578,f,u2574,m,m167,rear window,1954.0,1950,53
+M0790,main,L489790,conv_68945,3,u7524,m,u7526,f,m508,seven,1979.0,1970,14
+M0791,main,L24246,conv_1637,1,u224,m,u218,m,m14,alien nation,1988.0,1980,38
+M0792,main,L482203,conv_67809,2,u7409,f,u7410,m,m501,the salton sea,2002.0,2000,3
+M0793,main,L360146,conv_58875,7,u6413,m,u6410,f,m427,love & basketball,2000.0,2000,14
+M0794,main,L122115,conv_6046,4,u676,m,u686,m,m43,cast away,2000.0,2000,18
+M0795,main,L666036,conv_83051,4,u9020,f,u9017,m,m615,young frankenstein,1974.0,1970,18
+M0796,main,L411065,conv_62803,0,u6855,f,u6860,f,m458,never been kissed,1999.0,1990,7
+M0797,main,L257121,conv_52283,1,u5664,m,u5668,m,m375,grosse pointe blank,1997.0,1990,29
+M0798,main,L79034,conv_37491,1,u3979,m,u3986,f,m265,beetle juice,1988.0,1980,10
+M0799,main,L100460,conv_39229,3,u4181,f,u4188,m,m279,the bridges of madison county,1995.0,1990,28
+M0800,main,L269471,conv_11556,1,u1255,m,u1261,m,m83,hardcore,1979.0,1970,3
+M0801,main,L423798,conv_21788,0,u2378,f,u2369,f,m152,nurse betty,2000.0,2000,12
+M0802,main,L270229,conv_11630,2,u1273,f,u1272,m,m84,harold and maude,1971.0,1970,15
+M0803,main,L244582,conv_51237,3,u5525,m,u5527,m,m368,glengarry glen ross,1992.0,1990,3
+M0804,main,L310832,conv_14367,1,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,22
+M0805,main,L134076,conv_42362,8,u4505,f,u4515,f,m298,citizen kane,1941.0,1940,7
+M0806,main,L262953,conv_53146,1,u5747,f,u5749,f,m380,hannah and her sisters,1986.0,1980,13
+M0807,main,L312100,conv_55737,4,u6045,m,u6054,f,m402,it's a wonderful life,1946.0,1940,13
+M0808,main,L469918,conv_66614,0,u7274,m,u7283,m,m491,rocky,1976.0,1970,15
+M0809,main,L614108,conv_77680,7,u8437,m,u8443,f,m573,trouble in paradise,1932.0,1930,7
+M0810,main,L244912,conv_51304,3,u5548,m,u5538,m,m369,the godfather: part ii,1974.0,1970,25
+M0811,main,L374472,conv_18872,10,u2041,m,u2036,f,m132,meet john doe,1941.0,1940,7
+M0812,main,L5024,conv_614,1,u67,m,u71,m,m4,48 hrs.,1982.0,1980,10
+M0813,main,L347964,conv_17004,14,u1811,m,u1827,m,m120,the life of david gale,2003.0,2000,5
+M0814,main,L106676,conv_39574,2,u4214,f,u4210,f,m281,bound,1996.0,1990,8
+M0815,main,L100744,conv_39305,12,u4183,f,u4192,m,m279,the bridges of madison county,1995.0,1990,7
+M0816,main,L279516,conv_12139,1,u1321,f,u1323,m,m88,high fidelity,2000.0,2000,3
+M0817,main,L87808,conv_4500,0,u540,f,u532,m,m34,blade runner,1982.0,1980,14
+M0818,main,L419940,conv_21072,13,u2304,f,u2314,f,m149,ninotchka,1939.0,1930,4
+M0819,main,L407233,conv_62358,2,u6793,f,u6787,m,m453,nashville,1975.0,1970,10
+M0820,main,L296266,conv_54938,0,u5976,f,u5979,m,m396,i walked with a zombie,1943.0,1940,5
+M0821,main,L151733,conv_44450,4,u4729,f,u4732,f,m314,the curse,1987.0,1980,6
+M0822,main,L501572,conv_69513,0,u7593,f,u7588,m,m513,shampoo,1975.0,1970,12
+M0823,main,L322273,conv_56008,2,u6095,f,u6098,m,m404,jaws 3-d,1983.0,1980,3
+M0824,main,L251245,conv_10817,1,u1178,f,u1169,m,m77,the graduate,1967.0,1960,11
+M0825,main,L633188,conv_79613,2,u8677,m,u8679,m,m588,u-turn,1973.0,1970,4
+M0826,main,L190221,conv_47398,0,u5074,m,u5076,f,m336,erin brockovich,2000.0,2000,6
+M0827,main,L474812,conv_24458,2,u2627,f,u2629,f,m171,roughshod,1949.0,1940,4
+M0828,main,L126643,conv_41503,7,u4411,m,u4421,m,m293,charade,1963.0,1960,31
+M0829,main,L327044,conv_56629,0,u6140,m,u6136,m,m408,jerry maguire,1996.0,1990,3
+M0830,main,L250622,conv_10769,2,u1169,m,u1178,f,m77,the graduate,1967.0,1960,12
+M0831,main,L206102,conv_48986,1,u5244,m,u5243,f,m347,fargo,1996.0,1990,10
+M0832,main,L150261,conv_44131,5,u4704,f,u4717,m,m312,cruel intentions,1999.0,1990,11
+M0833,main,L474579,conv_24457,1,u2629,f,u2627,f,m171,roughshod,1949.0,1940,44
+M0834,main,L311216,conv_14398,7,u1548,m,u1535,f,m103,it happened one night,1934.0,1930,3
+M0835,main,L237888,conv_10251,1,u1117,m,u1116,m,m73,the ghost and the darkness,1996.0,1990,16
+M0836,main,L346570,conv_16644,1,u1784,m,u1785,m,m118,legend,1985.0,1980,3
+M0837,main,L594252,conv_76248,2,u8273,m,u8274,m,m562,the hebrew hammer,2003.0,2000,3
+M0838,main,L632334,conv_79519,1,u8674,f,u8677,m,m588,u-turn,1973.0,1970,4
+M0839,main,L497290,conv_24990,4,u2688,f,u2687,f,m175,"sex, lies, and videotape",1989.0,1980,6
+M0840,main,L469967,conv_66634,6,u7277,m,u7283,m,m491,rocky,1976.0,1970,5
+M0841,main,L14655,conv_33094,2,u3557,f,u3555,f,m234,agnes of god,1985.0,1980,4
+M0842,main,L619093,conv_31073,0,u3316,m,u3321,m,m220,top gun,1986.0,1980,4
+M0843,main,L395758,conv_19817,11,u2157,f,u2175,f,m140,mr. deeds goes to town,1936.0,1930,19
+M0844,main,L149970,conv_44216,3,u4717,m,u4710,f,m312,cruel intentions,1999.0,1990,18
+M0845,main,L262903,conv_53040,0,u5746,f,u5749,f,m380,hannah and her sisters,1986.0,1980,4
+M0846,main,L167429,conv_45679,3,u4869,f,u4866,m,m324,dog day afternoon,1975.0,1970,23
+M0847,main,L250737,conv_10780,7,u1169,m,u1178,f,m77,the graduate,1967.0,1960,3
+M0848,main,L29470,conv_33884,1,u3635,m,u3611,m,m239,all the president's men,1976.0,1970,6
+M0849,main,L419028,conv_21162,2,u2309,m,u2312,m,m149,ninotchka,1939.0,1930,10
+M0850,main,L615448,conv_77905,1,u8467,m,u8476,m,m575,transatlantic merry-go-round,1934.0,1930,31
+M0851,main,L67605,conv_36674,2,u3882,m,u3884,m,m257,basic instinct,1992.0,1990,6
+M0852,main,L206401,conv_49007,4,u5243,f,u5245,m,m347,fargo,1996.0,1990,3
+M0853,main,L119402,conv_5787,0,u664,f,u667,m,m42,casablanca,1942.0,1940,11
+M0854,main,L474594,conv_24355,0,u2621,m,u2629,f,m171,roughshod,1949.0,1940,10
+M0855,main,L357735,conv_17671,0,u1893,m,u1894,m,m124,lost horizon,1937.0,1930,8
+M0856,main,L232546,conv_9440,1,u1050,m,u1064,m,m69,george washington,2000.0,2000,6
+M0857,main,L150733,conv_44285,5,u4719,f,u4718,f,m313,the curse of the cat people,1944.0,1940,3
+M0858,main,L588692,conv_29329,1,u3164,f,u3171,f,m208,the birds,1963.0,1960,9
+M0859,main,L328058,conv_14556,3,u1585,m,u1568,m,m104,jfk,1991.0,1990,15
+M0860,main,L46471,conv_35046,8,u3729,m,u3727,m,m246,the apartment,1960.0,1960,9
+M0861,main,L114519,conv_40231,2,u4288,m,u4286,f,m286,a bucket of blood,1959.0,1950,7
+M0862,main,L46459,conv_35027,8,u3731,m,u3727,m,m246,the apartment,1960.0,1960,15
+M0863,main,L536131,conv_27386,0,u2966,m,u2958,m,m194,star trek iv: the voyage home,1986.0,1980,9
+M0864,main,L250775,conv_10852,8,u1176,m,u1169,m,m77,the graduate,1967.0,1960,22
+M0865,main,L197736,conv_47937,1,u5138,f,u5140,m,m341,the exorcist,1973.0,1970,7
+M0866,main,L588722,conv_29290,4,u3162,f,u3171,f,m208,the birds,1963.0,1960,6
+M0867,main,L589802,conv_29514,0,u3182,m,u3180,m,m209,the body snatcher,1945.0,1940,10
+M0868,main,L602867,conv_77012,2,u8391,f,u8398,f,m569,the thin man,1934.0,1930,5
+M0869,main,L589109,conv_29404,3,u3171,f,u3172,m,m208,the birds,1963.0,1960,10
+M0870,main,L216176,conv_49373,1,u5302,m,u5296,m,m351,rambo: first blood part ii,1985.0,1980,5
+M0871,main,L589930,conv_29493,2,u3178,m,u3182,m,m209,the body snatcher,1945.0,1940,30
+M0872,main,L399428,conv_61597,2,u6715,f,u6733,f,m448,mulholland dr.,2001.0,2000,26
+M0873,main,L48531,conv_35232,0,u3753,m,u3763,m,m247,apocalypse now,1979.0,1970,5
+M0874,main,L293085,conv_54705,0,u5946,f,u5951,m,m394,hudson hawk,1991.0,1990,29
+M0875,main,L173137,conv_46051,0,u4907,f,u4910,m,m327,dumb and dumberer: when harry met lloyd,2003.0,2000,6
+M0876,main,L603480,conv_77166,0,u8401,f,u8400,m,m569,the thin man,1934.0,1930,5
+M0877,main,L141967,conv_43030,5,u4595,f,u4592,m,m303,conspiracy theory,1997.0,1990,8
+M0878,main,L253617,conv_10898,1,u1184,m,u1190,f,m78,grand hotel,1932.0,1930,11
+M0879,main,L496332,conv_24764,0,u2667,m,u2675,f,m174,the seventh victim,1943.0,1940,24
+M0880,main,L418979,conv_21092,1,u2305,m,u2309,m,m149,ninotchka,1939.0,1930,8
+M0881,main,L250661,conv_10772,9,u1178,f,u1169,m,m77,the graduate,1967.0,1960,8
+M0882,main,L452305,conv_65734,1,u7158,m,u7160,m,m481,the producers,1968.0,1960,8
+M0883,main,L474679,conv_24486,3,u2629,f,u2632,m,m171,roughshod,1949.0,1940,8
+M0884,main,L399665,conv_20034,1,u2196,m,u2192,f,m141,mumford,1999.0,1990,5
+M0885,main,L150982,conv_44339,6,u4719,f,u4722,f,m313,the curse of the cat people,1944.0,1940,5
+M0886,main,L369590,conv_59481,1,u6499,m,u6502,m,m432,man on the moon,1999.0,1990,4
+M0887,main,L395562,conv_19965,2,u2183,m,u2173,m,m140,mr. deeds goes to town,1936.0,1930,21
+M0888,main,L443555,conv_64880,9,u7072,m,u7073,m,m473,planet of the apes,2001.0,2000,11
+M0889,main,L27704,conv_33789,1,u3604,f,u3606,f,m238,all about eve,1950.0,1950,18
+M0890,main,L74384,conv_37135,1,u3956,f,u3943,m,m262,batman,1989.0,1980,5
+M0891,main,L542801,conv_28139,2,u3043,f,u3050,m,m199,starman,1984.0,1980,6
+M0892,main,L116972,conv_40554,1,u4315,f,u4317,m,m288,bull durham,1988.0,1980,23
+M0893,main,L28367,conv_33847,7,u3605,m,u3606,f,m238,all about eve,1950.0,1950,4
+M0894,main,L262486,conv_52951,1,u5749,f,u5741,m,m380,hannah and her sisters,1986.0,1980,10
+M0895,main,L55435,conv_1146,1,u132,m,u135,m,m9,the atomic submarine,1959.0,1950,12
+M0896,main,L113048,conv_40096,0,u4278,f,u4281,m,m285,broadcast news,1987.0,1980,7
+M0897,main,L295911,conv_13050,4,u1420,f,u1413,m,m94,the hustler,1961.0,1960,24
+M0898,main,L410013,conv_62614,10,u6830,f,u6822,m,m455,nothing but a man,1964.0,1960,4
+M0899,main,L591966,conv_29713,0,u3201,f,u3204,m,m211,the day the earth stood still,2008.0,2000,7
+M0900,main,L208893,conv_8296,0,u918,f,u920,m,m60,fear and loathing in las vegas,1998.0,1990,16
+M0901,main,L627824,conv_79186,0,u8631,f,u8637,m,m586,true romance,1993.0,1990,5
+M0902,main,L532848,conv_26670,2,u2888,m,u2895,m,m190,stalag 17,1953.0,1950,11
+M0903,main,L312244,conv_55742,1,u6054,f,u6045,m,m402,it's a wonderful life,1946.0,1940,17
+M0904,main,L118645,conv_5922,3,u669,m,u667,m,m42,casablanca,1942.0,1940,11
+M0905,main,L234452,conv_50875,0,u5494,m,u5496,m,m366,the getaway,1972.0,1970,22
+M0906,main,L303169,conv_13894,11,u1479,f,u1475,m,m100,innerspace,1987.0,1980,11
+M0907,main,L251653,conv_10722,2,u1169,m,u1172,f,m77,the graduate,1967.0,1960,3
+M0908,main,L239468,conv_10286,1,u1120,f,u1125,m,m74,ghostbusters ii,1989.0,1980,5
+M0909,main,L295634,conv_13161,1,u1420,f,u1416,m,m94,the hustler,1961.0,1960,3
+M0910,main,L549312,conv_72801,2,u7885,f,u7884,m,m533,stepmom,1998.0,1990,11
+M0911,main,L354043,conv_58239,0,u6322,m,u6347,f,m423,lone star,1996.0,1990,10
+M0912,main,L615801,conv_77883,1,u8475,f,u8467,m,m575,transatlantic merry-go-round,1934.0,1930,7
+M0913,main,L560365,conv_74062,10,u8027,f,u8034,m,m544,superman,1978.0,1970,6
+M0914,main,L47266,conv_35033,1,u3727,m,u3731,m,m246,the apartment,1960.0,1960,4
+M0915,main,L253372,conv_10973,4,u1195,m,u1188,f,m78,grand hotel,1932.0,1930,6
+M0916,main,L86016,conv_4138,7,u502,f,u501,m,m31,birthday girl,2001.0,2000,4
+M0917,main,L648564,conv_81320,1,u8859,f,u8862,f,m601,what lies beneath,2000.0,2000,9
+M0918,main,L638295,conv_80260,1,u8744,m,u8748,f,m593,verdict,1974.0,1970,13
+M0919,main,L613834,conv_77699,0,u8443,f,u8440,f,m573,trouble in paradise,1932.0,1930,21
+M0920,main,L283963,conv_12342,2,u1364,f,u1356,m,m90,his girl friday,1940.0,1940,3
+M0921,main,L172228,conv_7162,0,u820,m,u822,m,m52,duck soup,1933.0,1930,37
+M0922,main,L305720,conv_55228,1,u6013,m,u6011,f,m399,interview with the vampire: the vampire chronicles,1994.0,1990,4
+M0923,main,L501449,conv_69640,1,u7597,m,u7593,f,m513,shampoo,1975.0,1970,6
+M0924,main,L409534,conv_62600,4,u6822,m,u6837,m,m455,nothing but a man,1964.0,1960,11
+M0925,main,L588976,conv_29399,4,u3171,f,u3172,m,m208,the birds,1963.0,1960,20
+M0926,main,L27838,conv_33702,7,u3602,f,u3600,m,m238,all about eve,1950.0,1950,4
+M0927,main,L613776,conv_77658,1,u8440,f,u8437,m,m573,trouble in paradise,1932.0,1930,7
+M0928,main,L114248,conv_40184,1,u4286,f,u4295,m,m286,a bucket of blood,1959.0,1950,3
+M0929,main,L463537,conv_24198,2,u2603,m,u2600,m,m169,reindeer games,2000.0,2000,11
+M0930,main,L81538,conv_37663,0,u3998,f,u3993,m,m266,being there,1979.0,1970,21
+M0931,main,L27671,conv_33735,13,u3602,f,u3604,f,m238,all about eve,1950.0,1950,7
+M0932,main,L175045,conv_46336,1,u4941,m,u4943,m,m329,ed wood,1994.0,1990,4
+M0933,main,L133777,conv_42405,8,u4505,f,u4507,m,m298,citizen kane,1941.0,1940,28
+M0934,main,L357054,conv_17679,0,u1893,m,u1898,m,m124,lost horizon,1937.0,1930,6
+M0935,main,L521328,conv_70844,7,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,13
+M0936,main,L501781,conv_69524,1,u7593,f,u7588,m,m513,shampoo,1975.0,1970,12
+M0937,main,L452366,conv_65741,2,u7160,m,u7158,m,m481,the producers,1968.0,1960,9
+M0938,main,L521235,conv_70803,1,u7712,m,u7717,m,m522,some like it hot,1959.0,1950,5
+M0939,main,L590052,conv_29496,2,u3182,m,u3178,m,m209,the body snatcher,1945.0,1940,5
+M0940,main,L564448,conv_74232,0,u8048,f,u8045,m,m545,the sweet hereafter,1997.0,1990,4
+M0941,main,L117808,conv_5639,0,u650,f,u646,m,m41,the butterfly effect,2004.0,2000,8
+M0942,main,L345677,conv_16669,5,u1785,m,u1788,f,m118,legend,1985.0,1980,4
+M0943,main,L433440,conv_63998,0,u6983,f,u6980,m,m467,out of sight,1998.0,1990,11
+M0944,main,L588864,conv_29349,2,u3168,f,u3172,m,m208,the birds,1963.0,1960,5
+M0945,main,L85847,conv_4115,1,u502,f,u501,m,m31,birthday girl,2001.0,2000,5
+M0946,main,L47957,conv_35238,4,u3763,m,u3755,m,m247,apocalypse now,1979.0,1970,8
+M0947,main,L573175,conv_74934,4,u8124,f,u8123,f,m551,the haunting,1999.0,1990,9
+M0948,main,L590079,conv_29474,2,u3183,f,u3178,m,m209,the body snatcher,1945.0,1940,36
+M0949,main,L270321,conv_11649,1,u1273,f,u1272,m,m84,harold and maude,1971.0,1970,49
+M0950,main,L335296,conv_57220,1,u6199,m,u6196,f,m414,king kong,2005.0,2000,3
+M0951,main,L130131,conv_42119,1,u4476,f,u4477,m,m296,chinatown,1974.0,1970,20
+M0952,main,L503409,conv_25116,1,u2723,m,u2711,f,m177,shock treatment,1981.0,1980,8
+M0953,main,L475232,conv_24390,3,u2629,f,u2621,m,m171,roughshod,1949.0,1940,6
+M0954,main,L343898,conv_16349,0,u1755,m,u1758,f,m116,leaving las vegas,1995.0,1990,7
+M0955,main,L497277,conv_24988,1,u2688,f,u2687,f,m175,"sex, lies, and videotape",1989.0,1980,11
+M0956,main,L15469,conv_33153,2,u3567,f,u3572,m,m235,a hard day's night,1964.0,1960,9
+M0957,main,L220093,conv_49840,3,u5348,m,u5345,m,m355,fletch,1985.0,1980,5
+M0958,main,L319644,conv_15288,0,u1642,m,u1646,f,m108,jaws,1975.0,1970,30
+M0959,main,L603212,conv_77051,1,u8400,m,u8394,m,m569,the thin man,1934.0,1930,5
+M0960,main,L15182,conv_33222,8,u3570,f,u3569,m,m235,a hard day's night,1964.0,1960,5
+M0961,main,L319962,conv_15265,1,u1652,m,u1642,m,m108,jaws,1975.0,1970,5
+M0962,main,L655156,conv_81961,7,u8918,f,u8914,m,m606,wild things,1998.0,1990,17
+M0963,main,L14129,conv_33068,10,u3555,f,u3557,f,m234,agnes of god,1985.0,1980,16
+M0964,main,L645885,conv_31869,0,u3425,m,u3437,f,m226,the war of the worlds,1953.0,1950,15
+M0965,main,L172176,conv_7137,5,u820,m,u818,m,m52,duck soup,1933.0,1930,10
+M0966,main,L638453,conv_80391,0,u8764,f,u8767,m,m594,vertigo,1958.0,1950,4
+M0967,main,L454044,conv_65884,1,u7175,f,u7177,m,m482,psycho,1960.0,1960,4
+M0968,main,L118629,conv_5920,3,u667,m,u669,m,m42,casablanca,1942.0,1940,6
+M0969,main,L555037,conv_73468,2,u7959,m,u7965,f,m539,sunset blvd.,1950.0,1950,5
+M0970,main,L359970,conv_58813,3,u6410,f,u6415,f,m427,love & basketball,2000.0,2000,8
+M0971,main,L150788,conv_44355,2,u4725,f,u4719,f,m313,the curse of the cat people,1944.0,1940,16
+M0972,main,L126018,conv_41636,2,u4421,m,u4420,m,m293,charade,1963.0,1960,8
+M0973,main,L227724,conv_8907,12,u1005,m,u997,m,m65,from dusk till dawn,1996.0,1990,15
+M0974,main,L251569,conv_10708,3,u1169,m,u1172,f,m77,the graduate,1967.0,1960,5
+M0975,main,L47293,conv_34974,1,u3730,f,u3727,m,m246,the apartment,1960.0,1960,6
+M0976,main,L521706,conv_70880,4,u7722,f,u7713,m,m522,some like it hot,1959.0,1950,18
+M0977,main,L175922,conv_46358,4,u4941,m,u4945,f,m329,ed wood,1994.0,1990,12
+M0978,main,L307464,conv_13249,0,u1429,m,u1430,f,m96,invaders from mars,1953.0,1950,5
+M0979,main,L534490,conv_27083,0,u2935,m,u2938,m,m193,star trek: the wrath of khan,1982.0,1980,4
+M0980,main,L474443,conv_24402,0,u2632,m,u2621,m,m171,roughshod,1949.0,1940,24
+M0981,main,L110870,conv_39720,1,u4251,m,u4233,m,m283,brazil,1985.0,1980,22
+M0982,main,L480451,conv_67645,3,u7377,f,u7381,m,m499,sleepless in seattle,1993.0,1990,7
+M0983,main,L445492,conv_23042,1,u2489,f,u2495,m,m161,platinum blonde,1931.0,1930,9
+M0984,main,L370689,conv_18547,3,u2004,f,u2010,m,m130,marty,1955.0,1950,6
+M0985,main,L660022,conv_82412,0,u8950,f,u8954,m,m610,the wizard of oz,1939.0,1930,7
+M0986,main,L47373,conv_34980,5,u3730,f,u3727,m,m246,the apartment,1960.0,1960,3
+M0987,main,L554965,conv_73464,18,u7965,f,u7959,m,m539,sunset blvd.,1950.0,1950,3
+M0988,main,L134187,conv_42372,3,u4505,f,u4515,f,m298,citizen kane,1941.0,1940,5
+M0989,main,L295313,conv_13140,1,u1420,f,u1416,m,m94,the hustler,1961.0,1960,6
+M0990,main,L311251,conv_14401,0,u1535,f,u1548,m,m103,it happened one night,1934.0,1930,8
+M0991,main,L320506,conv_55873,3,u6074,f,u6068,m,m403,jaws 2,1978.0,1970,5
+M0992,main,L392948,conv_19609,0,u2151,m,u2137,m,m139,mr. smith goes to washington,1939.0,1930,11
+M0993,main,L26851,conv_1838,1,u237,f,u236,f,m15,aliens,1986.0,1980,5
+M0994,main,L602505,conv_77038,0,u8391,f,u8406,f,m569,the thin man,1934.0,1930,7
+M0995,main,L613713,conv_77673,9,u8443,f,u8437,m,m573,trouble in paradise,1932.0,1930,7
+M0996,main,L307450,conv_13241,2,u1427,m,u1430,f,m96,invaders from mars,1953.0,1950,5
+M0997,main,L551158,conv_28362,2,u3058,f,u3057,m,m200,strange days,1995.0,1990,4
+M0998,main,L454205,conv_65808,2,u7169,m,u7177,m,m482,psycho,1960.0,1960,8
+M0999,main,L393422,conv_19670,26,u2147,f,u2138,m,m139,mr. smith goes to washington,1939.0,1930,53
+O0000,orders,L124508,conv_41248,3,u4396,m,u4398,m,m291,cellular,2004.0,2000,7
+O0001,orders,L284169,conv_12537,1,u1363,m,u1368,m,m90,his girl friday,1940.0,1940,5
+O0002,orders,L294457,conv_12979,0,u1405,f,u1407,m,m93,human nature,2001.0,2000,4
+O0003,orders,L326763,conv_56537,0,u6134,f,u6137,f,m408,jerry maguire,1996.0,1990,4
+O0004,orders,L555602,conv_73496,2,u7965,f,u7959,m,m539,sunset blvd.,1950.0,1950,5
+O0005,orders,L251362,conv_10689,0,u1169,m,u1172,f,m77,the graduate,1967.0,1960,22
+O0006,orders,L183433,conv_46924,30,u5016,m,u5026,m,m333,enemy of the state,1998.0,1990,4
+O0007,orders,L396130,conv_19776,1,u2157,f,u2162,m,m140,mr. deeds goes to town,1936.0,1930,5
+O0008,orders,L84849,conv_38111,2,u4057,m,u4065,m,m269,the big lebowski,1998.0,1990,10
+O0009,orders,L283515,conv_12401,30,u1364,f,u1357,m,m90,his girl friday,1940.0,1940,5
+O0010,orders,L398758,conv_61488,4,u6706,f,u6712,m,m447,arcade,1993.0,1990,5
+O0011,orders,L600124,conv_30541,2,u3282,m,u3273,m,m217,there's something about mary,1998.0,1990,4
+O0012,orders,L553951,conv_73134,49,u7936,m,u7932,m,m537,suburbia,1996.0,1990,7
+O0013,orders,L565756,conv_74369,0,u8059,m,u8065,m,m546,sweet smell of success,1957.0,1950,11
+O0014,orders,L263101,conv_53119,18,u5750,m,u5747,f,m380,hannah and her sisters,1986.0,1980,22
+O0015,orders,L369706,conv_59586,0,u6515,m,u6502,m,m432,man on the moon,1999.0,1990,6
+O0016,orders,L565539,conv_74400,0,u8062,f,u8065,m,m546,sweet smell of success,1957.0,1950,21
+O0017,orders,L483638,conv_68158,5,u7440,m,u7437,f,m503,say anything...,1989.0,1980,19
+O0018,orders,L469747,conv_23641,2,u2554,m,u2557,m,m165,rko 281,1999.0,1990,21
+O0019,orders,L595590,conv_30430,1,u3266,f,u3261,f,m216,thelma & louise,1991.0,1990,5
+O0020,orders,L382090,conv_17830,1,u1906,m,u1913,m,m125,men in black,1997.0,1990,4
+O0021,orders,L157005,conv_44822,0,u4770,f,u4763,m,m317,day of the dead,1985.0,1980,20
+O0022,orders,L184313,conv_46971,2,u5046,m,u5054,f,m334,the english patient,1996.0,1990,7
+O0023,orders,L553752,conv_73315,0,u7940,f,u7942,m,m537,suburbia,1996.0,1990,14
+O0024,orders,L329354,conv_15386,6,u1660,f,u1654,m,m109,juno,2007.0,2000,5
+O0025,orders,L549902,conv_72770,3,u7885,f,u7883,f,m533,stepmom,1998.0,1990,4
+O0026,orders,L393428,conv_19670,32,u2147,f,u2138,m,m139,mr. smith goes to washington,1939.0,1930,38
+O0027,orders,L530078,conv_26533,1,u2871,f,u2876,m,m189,spider-man,2002.0,2000,7
+O0028,orders,L348387,conv_17032,0,u1811,m,u1827,m,m120,the life of david gale,2003.0,2000,13
+O0029,orders,L420092,conv_21158,0,u2310,m,u2309,m,m149,ninotchka,1939.0,1930,24
+O0030,orders,L288668,conv_54134,1,u5899,m,u5909,m,m390,hotel rwanda,2004.0,2000,28
+O0031,orders,L204885,conv_48765,8,u5224,m,u5221,m,m346,fantastic voyage,1966.0,1960,7
+O0032,orders,L657078,conv_82042,1,u8923,m,u8919,m,m607,wild wild west,1999.0,1990,11
+O0033,orders,L65729,conv_36475,2,u3866,m,u3865,m,m256,barton fink,1991.0,1990,3
+O0034,orders,L327038,conv_56627,2,u6140,m,u6136,m,m408,jerry maguire,1996.0,1990,4
+O0035,orders,L322449,conv_56016,1,u6095,f,u6098,m,m404,jaws 3-d,1983.0,1980,6
+O0036,orders,L799,conv_149,1,u9,m,u5,f,m0,10 things i hate about you,1999.0,1990,3
+O0037,orders,L291596,conv_54407,0,u5923,m,u5924,m,m391,house on haunted hill,1999.0,1990,6
+O0038,orders,L217621,conv_49532,0,u5313,m,u5310,m,m352,the fisher king,1991.0,1990,10
+O0039,orders,L483977,conv_68167,2,u7440,m,u7437,f,m503,say anything...,1989.0,1980,6
+O0040,orders,L228074,conv_8947,0,u998,f,u1005,m,m65,from dusk till dawn,1996.0,1990,7
+O0041,orders,L555403,conv_73432,1,u7956,f,u7959,m,m539,sunset blvd.,1950.0,1950,4
+O0042,orders,L338581,conv_16114,0,u1724,f,u1725,m,m113,krull,1983.0,1980,4
+O0043,orders,L633965,conv_79686,9,u8683,m,u8685,m,m589,u turn,1997.0,1990,20
+O0044,orders,L524346,conv_71322,1,u7765,m,u7772,m,m525,south park: bigger longer & uncut,1999.0,1990,12
+O0045,orders,L38826,conv_34264,0,u3664,f,u3656,m,m241,an american werewolf in paris,1997.0,1990,3
+O0046,orders,L95917,conv_38947,12,u4139,f,u4136,m,m276,blow,2001.0,2000,8
+O0047,orders,L526355,conv_71596,4,u7800,f,u7802,m,m527,spare me,1992.0,1990,5
+O0048,orders,L249123,conv_51824,2,u5594,f,u5591,m,m372,goodfellas,1990.0,1990,11
+O0049,orders,L220837,conv_50002,1,u5373,f,u5364,m,m356,the adventures of ford fairlane,1990.0,1990,21
+O0050,orders,L92594,conv_4748,2,u557,f,u553,m,m35,blast from the past,1999.0,1990,14
+O0051,orders,L476102,conv_67104,0,u7333,f,u7324,m,m495,route 9,1998.0,1990,10
+O0052,orders,L277651,conv_53664,2,u5821,m,u5826,f,m386,hero,,,5
+O0053,orders,L205194,conv_48749,2,u5221,m,u5230,m,m346,fantastic voyage,1966.0,1960,11
+O0054,orders,L334519,conv_15751,0,u1685,f,u1691,f,m111,kids,1995.0,1990,4
+O0055,orders,L568387,conv_74585,1,u8088,m,u8084,m,m548,taking sides,2001.0,2000,30
+O0056,orders,L652170,conv_81690,1,u8891,m,u8904,m,m605,who's your daddy?,,,5
+O0057,orders,L451538,conv_65593,0,u7149,m,u7145,m,m480,the princess bride,1987.0,1980,10
+O0058,orders,L357741,conv_17671,6,u1893,m,u1894,m,m124,lost horizon,1937.0,1930,5
+O0059,orders,L383124,conv_60508,1,u6583,m,u6587,m,m438,midnight cowboy,1969.0,1960,32
+O0060,orders,L41354,conv_34402,1,u3667,f,u3669,m,m242,anastasia,1997.0,1990,5
+O0061,orders,L330600,conv_56840,1,u6159,m,u6160,f,m410,the lost world: jurassic park,1997.0,1990,14
+O0062,orders,L664939,conv_82838,0,u9001,m,u9000,m,m613,xxx,2002.0,2000,10
+O0063,orders,L401389,conv_61687,0,u6740,m,u6737,m,m449,"""murderland""",2009.0,2000,10
+O0064,orders,L423916,conv_21797,4,u2386,f,u2369,f,m152,nurse betty,2000.0,2000,5
+O0065,orders,L206158,conv_48907,1,u5232,m,u5240,m,m347,fargo,1996.0,1990,27
+O0066,orders,L206729,conv_8219,0,u915,f,u910,f,m59,fast times at ridgemont high,1982.0,1980,13
+O0067,orders,L220560,conv_49963,5,u5366,f,u5364,m,m356,the adventures of ford fairlane,1990.0,1990,7
+O0068,orders,L524071,conv_71313,0,u7765,m,u7772,m,m525,south park: bigger longer & uncut,1999.0,1990,8
+O0069,orders,L26746,conv_1836,0,u236,f,u237,f,m15,aliens,1986.0,1980,3
+O0070,orders,L549985,conv_72784,1,u7883,f,u7885,f,m533,stepmom,1998.0,1990,16
+O0071,orders,L556980,conv_73760,2,u7986,m,u7994,m,m541,superman iii,1983.0,1980,4
+O0072,orders,L419335,conv_21270,4,u2320,f,u2312,m,m149,ninotchka,1939.0,1930,10
+O0073,orders,L480514,conv_67639,0,u7377,f,u7384,m,m499,sleepless in seattle,1993.0,1990,18
+O0074,orders,L477590,conv_67336,1,u7349,m,u7354,m,m497,rush hour,1998.0,1990,39
+O0075,orders,L393725,conv_19680,0,u2147,f,u2138,m,m139,mr. smith goes to washington,1939.0,1930,49
+O0076,orders,L80982,conv_37619,1,u4012,f,u3990,m,m266,being there,1979.0,1970,11
+O0077,orders,L7072,conv_919,2,u105,m,u114,m,m6,8mm,1999.0,1990,23
+O0078,orders,L621971,conv_78501,1,u8536,m,u8545,m,m579,toy story,1995.0,1990,9
+O0079,orders,L133852,conv_42337,1,u4504,f,u4505,f,m298,citizen kane,1941.0,1940,6
+O0080,orders,L187979,conv_7324,2,u839,f,u840,m,m54,erik the viking,1989.0,1980,4
+O0081,orders,L112887,conv_39943,7,u4267,m,u4258,m,m284,bringing out the dead,1999.0,1990,3
+O0082,orders,L615412,conv_77900,1,u8467,m,u8476,m,m575,transatlantic merry-go-round,1934.0,1930,12
+O0083,orders,L111305,conv_39781,0,u4240,f,u4249,m,m283,brazil,1985.0,1980,4
+O0084,orders,L572400,conv_74717,5,u8103,f,u8114,m,m550,the game,1997.0,1990,3
+O0085,orders,L78421,conv_37551,1,u3982,m,u3986,f,m265,beetle juice,1988.0,1980,4
+O0086,orders,L399481,conv_61565,0,u6717,f,u6715,f,m448,mulholland dr.,2001.0,2000,8
+O0087,orders,L426643,conv_22067,18,u2408,m,u2414,m,m154,an officer and a gentleman,1982.0,1980,10
+O0088,orders,L298498,conv_13298,0,u1435,m,u1440,m,m97,independence day,1996.0,1990,9
+O0089,orders,L112643,conv_39921,1,u4258,m,u4262,m,m284,bringing out the dead,1999.0,1990,4
+O0090,orders,L14609,conv_33091,14,u3557,f,u3555,f,m234,agnes of god,1985.0,1980,10
+O0091,orders,L511790,conv_70252,1,u7650,f,u7649,m,m517,sleepy hollow,1999.0,1990,17
+O0092,orders,L430007,conv_63704,4,u6944,f,u6945,m,m464,only you,1994.0,1990,13
+O0093,orders,L439063,conv_64352,1,u7023,f,u7022,m,m469,peggy sue got married,1986.0,1980,3
+O0094,orders,L451282,conv_65528,1,u7142,f,u7135,f,m479,pretty woman,1990.0,1990,15
+O0095,orders,L457961,conv_65992,14,u7206,f,u7204,m,m485,mystery of the wax museum,1933.0,1930,42
+O0096,orders,L306585,conv_14138,3,u1513,m,u1520,m,m102,intolerable cruelty,2003.0,2000,16
+O0097,orders,L662166,conv_32665,2,u3517,m,u3519,m,m231,the woodsman,2004.0,2000,5
+O0098,orders,L93029,conv_4618,0,u556,f,u547,m,m35,blast from the past,1999.0,1990,5
+O0099,orders,L613298,conv_77649,4,u8440,f,u8437,m,m573,trouble in paradise,1932.0,1930,52
+O0100,orders,L133686,conv_42305,0,u4507,m,u4500,m,m298,citizen kane,1941.0,1940,14
+O0101,orders,L400675,conv_20265,0,u2208,m,u2205,f,m142,the mummy,1999.0,1990,9
+O0102,orders,L504262,conv_25251,6,u2735,m,u2738,m,m178,sideways,2004.0,2000,17
+O0103,orders,L106790,conv_39475,0,u4208,m,u4214,f,m281,bound,1996.0,1990,8
+O0104,orders,L171357,conv_7046,0,u796,f,u810,f,m51,drop dead gorgeous,1999.0,1990,12
+O0105,orders,L448969,conv_65221,0,u7111,m,u7116,f,m476,the ploughman's lunch,1983.0,1980,10
+O0106,orders,L508374,conv_70024,3,u7637,f,u7628,m,m516,sister act,1992.0,1990,30
+O0107,orders,L430026,conv_63631,0,u6944,f,u6940,f,m464,only you,1994.0,1990,6
+O0108,orders,L396968,conv_61403,7,u6696,m,u6704,f,m446,mrs brown,1997.0,1990,11
+O0109,orders,L664185,conv_82667,3,u8979,m,u8985,f,m612,watchmen,2009.0,2000,10
+O0110,orders,L30439,conv_1892,1,u260,m,u247,f,m16,amadeus,1984.0,1980,30
+O0111,orders,L555311,conv_73532,7,u7965,f,u7962,m,m539,sunset blvd.,1950.0,1950,21
+O0112,orders,L532991,conv_26679,0,u2895,m,u2888,m,m190,stalag 17,1953.0,1950,12
+O0113,orders,L111218,conv_39777,5,u4240,f,u4249,m,m283,brazil,1985.0,1980,3
+O0114,orders,L306678,conv_14277,0,u1529,m,u1520,m,m102,intolerable cruelty,2003.0,2000,18
+O0115,orders,L659638,conv_82357,2,u8951,f,u8950,f,m610,the wizard of oz,1939.0,1930,20
+O0116,orders,L538489,conv_27729,1,u3012,m,u3007,m,m197,star trek vi: the undiscovered country,1991.0,1990,3
+O0117,orders,L555866,conv_73593,2,u7978,f,u7970,m,m540,supergirl,1984.0,1980,7
+O0118,orders,L402705,conv_62079,1,u6772,f,u6771,m,m451,my girl,1991.0,1990,10
+O0119,orders,L124092,conv_41227,11,u4395,m,u4398,m,m291,cellular,2004.0,2000,4
+O0120,orders,L555926,conv_73661,0,u7978,f,u7979,f,m540,supergirl,1984.0,1980,5
+O0121,orders,L135500,conv_42469,1,u4535,m,u4522,f,m299,clerks.,1994.0,1990,10
+O0122,orders,L527822,conv_71840,0,u7811,m,u7809,m,m528,sphere,1998.0,1990,5
+O0123,orders,L93594,conv_4655,2,u556,f,u547,m,m35,blast from the past,1999.0,1990,15
+O0124,orders,L28059,conv_33641,0,u3607,m,u3599,m,m238,all about eve,1950.0,1950,10
+O0125,orders,L315663,conv_14983,0,u1614,f,u1612,m,m106,jacob's ladder,,,11
+O0126,orders,L174984,conv_46266,1,u4940,f,u4941,m,m329,ed wood,1994.0,1990,4
+O0127,orders,L346709,conv_16135,0,u1730,f,u1728,m,m114,léon,1994.0,1990,3
+O0128,orders,L524240,conv_71319,0,u7765,m,u7772,m,m525,south park: bigger longer & uncut,1999.0,1990,15
+O0129,orders,L213040,conv_49155,1,u5262,m,u5269,m,m348,fight club,1999.0,1990,4
+O0130,orders,L539930,conv_27582,0,u2992,f,u2993,m,m196,star trek: first contact,1996.0,1990,7
+O0131,orders,L411376,conv_62782,0,u6854,f,u6860,f,m458,never been kissed,1999.0,1990,18
+O0132,orders,L315715,conv_15038,2,u1612,m,u1620,m,m106,jacob's ladder,,,10
+O0133,orders,L97643,conv_4874,2,u571,f,u574,m,m36,blue velvet,1986.0,1980,7
+O0134,orders,L394003,conv_19649,3,u2144,m,u2138,m,m139,mr. smith goes to washington,1939.0,1930,10
+O0135,orders,L372931,conv_59711,0,u6523,m,u6527,f,m433,the matrix,1999.0,1990,5
+O0136,orders,L214997,conv_49253,2,u5281,f,u5287,m,m349,final destination 2,2003.0,2000,10
+O0137,orders,L208691,conv_8290,0,u918,f,u920,m,m60,fear and loathing in las vegas,1998.0,1990,3
+O0138,orders,L28157,conv_33680,3,u3606,f,u3600,m,m238,all about eve,1950.0,1950,5
+O0139,orders,L237559,conv_10101,0,u1106,f,u1094,f,m72,ghost world,2001.0,2000,4
+O0140,orders,L13961,conv_33010,32,u3549,f,u3555,f,m234,agnes of god,1985.0,1980,3
+O0141,orders,L428365,conv_63319,0,u6921,m,u6913,f,m463,one flew over the cuckoo's nest,1975.0,1970,16
+O0142,orders,L10449,conv_32794,0,u3525,f,u3520,m,m232,the abyss,1989.0,1980,27
+O0143,orders,L14317,conv_33020,7,u3549,f,u3555,f,m234,agnes of god,1985.0,1980,6
+O0144,orders,L505178,conv_25417,0,u2747,m,u2746,m,m179,signs,2002.0,2000,24
+O0145,orders,L627441,conv_79137,1,u8623,m,u8624,f,m585,true lies,1994.0,1990,7
+O0146,orders,L374516,conv_18880,0,u2036,f,u2041,m,m132,meet john doe,1941.0,1940,35
+O0147,orders,L123713,conv_41158,10,u4398,m,u4393,f,m291,cellular,2004.0,2000,13
+O0148,orders,L99581,conv_39155,2,u4174,f,u4166,m,m278,body of evidence,1993.0,1990,16
+O0149,orders,L19689,conv_1573,2,u198,f,u214,m,m13,airplane!,1980.0,1980,4
