@@ -156,7 +156,7 @@ def preparer_dataset_swda(dataset):
     print("\nDistribution des macro-classes :")
     print(df["macro_classe"].value_counts())
 
-    return df[["text", "texte_nettoye", "macro_classe"]].reset_index(drop=True)
+    return df[["conversation_no", "text", "texte_nettoye", "macro_classe"]].reset_index(drop=True)
 
 
 if __name__ == "__main__":

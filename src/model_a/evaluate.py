@@ -1,5 +1,5 @@
-# Évalue un modèle persisté sur le test set SWDA.
-# Reproduit le split via random_state=42 + stratify, puis sort métriques + matrice de confusion.
+# Évalue un modèle persisté sur le test (ou val) set SWDA.
+# Reproduit le split au niveau conversation (split_par_conversation, seed=42).
 
 import json
 import os
@@ -14,23 +14,20 @@ from sklearn.metrics import (
     confusion_matrix,
     f1_score,
 )
-from sklearn.model_selection import train_test_split
 
+from src.model_a.train_classifier import obtenir_splits
 from src.preprocessing.cache_dataset import charger_dataset_clean
-from src.preprocessing.features import NOMS_FEATURES, ajouter_features_au_df
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DOSSIER_SORTIE = os.path.join(RACINE, "resultats", "model_a")
 
 
-def reproduire_split(df):
-    df = ajouter_features_au_df(df)
-    X = df[["texte_nettoye"] + NOMS_FEATURES]
-    y = df["macro_classe"]
-    _, X_test, _, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
-    )
-    return X_test, y_test
+def reproduire_split(df, sur="test", avec_val=True):
+    """Reproduit le split exact (seed=42) et renvoie (X, y) sur 'val' ou 'test'."""
+    s = obtenir_splits(df, avec_val=avec_val)
+    if sur not in {"train", "val", "test"} or f"X_{sur}" not in s:
+        raise ValueError(f"sur='{sur}' indisponible (splits={list(s.keys())})")
+    return s[f"X_{sur}"], s[f"y_{sur}"]
 
 
 def sauvegarder_matrice_confusion(y_true, y_pred, classes, chemin_png):
@@ -63,8 +60,8 @@ def sauvegarder_matrice_confusion(y_true, y_pred, classes, chemin_png):
     plt.close()
 
 
-def evaluer(nom_run="baseline", chemin_modele=None):
-    print(f"=== Évaluation : {nom_run} ===\n")
+def evaluer(nom_run="baseline", chemin_modele=None, sur="test", avec_val=True):
+    print(f"=== Évaluation : {nom_run} (sur={sur}) ===\n")
 
     if chemin_modele is None:
         chemin_modele = os.path.join(RACINE, "src", "model_a", f"modele_{nom_run}.joblib")
@@ -72,12 +69,12 @@ def evaluer(nom_run="baseline", chemin_modele=None):
             chemin_modele = os.path.join(RACINE, "src", "model_a", "modele_dialogue_acts.joblib")
 
     df = charger_dataset_clean()
-    X_test, y_test = reproduire_split(df)
+    X_test, y_test = reproduire_split(df, sur=sur, avec_val=avec_val)
 
     print(f"Chargement du modèle : {chemin_modele}")
     pipeline = joblib.load(chemin_modele)
 
-    print("Prédiction sur le test set...")
+    print(f"Prédiction sur {sur} set...")
     y_pred = pipeline.predict(X_test)
 
     classes = sorted(y_test.unique())

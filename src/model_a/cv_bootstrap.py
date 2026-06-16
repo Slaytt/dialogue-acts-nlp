@@ -4,10 +4,11 @@ import time
 
 import numpy as np
 from sklearn.metrics import f1_score
-from sklearn.model_selection import StratifiedKFold, cross_val_predict, cross_val_score
+from sklearn.model_selection import GroupKFold, cross_val_predict, cross_val_score
 
 from src.model_a.train_classifier import construire_pipeline, preparer_donnees
 from src.preprocessing.cache_dataset import charger_dataset_clean
+from src.preprocessing.features import ajouter_features_au_df
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CHEMIN_SORTIE = os.path.join(RACINE, "resultats", "model_a", "cv_bootstrap.json")
@@ -47,24 +48,29 @@ def main():
     print(f"=== CV {N_FOLDS}-fold + Bootstrap (n_iter={N_BOOTSTRAP}) ===\n")
 
     df = charger_dataset_clean()
+    df_feat = ajouter_features_au_df(df)
     X, y = preparer_donnees(df)
+    groupes = df_feat["conversation_no"].to_numpy()
     y_arr = np.asarray(y)
     classes = sorted(np.unique(y_arr).tolist())
-    print(f"Données : {len(y_arr)} exemples | {len(classes)} classes")
+    print(f"Données : {len(y_arr)} exemples | {len(classes)} classes | "
+          f"{len(np.unique(groupes))} conversations")
 
     pipeline = construire_pipeline(C=C_RETENU)
-    cv = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=SEED)
+    cv = GroupKFold(n_splits=N_FOLDS)
 
-    print(f"\n--- cross_val_score (F1-macro) ---")
+    print(f"\n--- cross_val_score (F1-macro, GroupKFold sur conversation_no) ---")
     t1 = time.time()
-    cv_scores = cross_val_score(pipeline, X, y, cv=cv, scoring="f1_macro", n_jobs=-1)
+    cv_scores = cross_val_score(
+        pipeline, X, y, cv=cv, groups=groupes, scoring="f1_macro", n_jobs=-1
+    )
     print(f"Scores par fold : {[round(s, 4) for s in cv_scores]}")
     print(f"Moyenne ± std : {cv_scores.mean():.4f} ± {cv_scores.std():.4f}")
     print(f"(temps CV : {time.time() - t1:.1f}s)")
 
     print(f"\n--- cross_val_predict (out-of-fold) ---")
     t2 = time.time()
-    y_pred_oof = cross_val_predict(pipeline, X, y, cv=cv, n_jobs=-1)
+    y_pred_oof = cross_val_predict(pipeline, X, y, cv=cv, groups=groupes, n_jobs=-1)
     print(f"(temps CV-predict : {time.time() - t2:.1f}s)")
 
     f1_macro_oof = f1_score(y_arr, y_pred_oof, average="macro", zero_division=0)

@@ -4,11 +4,12 @@ import time
 
 import numpy as np
 from sklearn.metrics import f1_score
-from sklearn.model_selection import StratifiedKFold, train_test_split
+from sklearn.model_selection import GroupKFold, GroupShuffleSplit
 
 from src.model_a.calibration import calibrer, predire_avec_betas
 from src.model_a.train_classifier import construire_pipeline, preparer_donnees
 from src.preprocessing.cache_dataset import charger_dataset_clean
+from src.preprocessing.features import ajouter_features_au_df
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CHEMIN_SORTIE = os.path.join(RACINE, "resultats", "model_a", "cv_bootstrap_calibre.json")
@@ -20,24 +21,28 @@ SEED = 42
 TAILLE_VAL_INTERNE = 0.2  # 20% du train du fold → 16% du dataset total
 
 
-def cv_calibree(X, y, classes):
+def cv_calibree(X, y, groupes, classes):
     y_arr = np.asarray(y)
-    cv = StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=SEED)
+    cv = GroupKFold(n_splits=N_FOLDS)
     y_pred_oof = np.empty(len(y_arr), dtype=object)
     f1_par_fold = []
     betas_par_fold = []
 
-    for k, (idx_train_full, idx_test) in enumerate(cv.split(X, y_arr)):
+    for k, (idx_train_full, idx_test) in enumerate(cv.split(X, y_arr, groups=groupes)):
         t0 = time.time()
         X_train_full = X.iloc[idx_train_full]
         y_train_full = y_arr[idx_train_full]
+        groupes_train_full = groupes[idx_train_full]
         X_test_fold = X.iloc[idx_test]
         y_test_fold = y_arr[idx_test]
 
-        X_train, X_val, y_train, y_val = train_test_split(
-            X_train_full, y_train_full,
-            test_size=TAILLE_VAL_INTERNE, random_state=SEED, stratify=y_train_full
-        )
+        # Inner split par conversation (GroupShuffleSplit) pour train / val_calibration.
+        inner = GroupShuffleSplit(n_splits=1, test_size=TAILLE_VAL_INTERNE, random_state=SEED)
+        idx_tr_inner, idx_val_inner = next(inner.split(X_train_full, y_train_full, groups=groupes_train_full))
+        X_train = X_train_full.iloc[idx_tr_inner]
+        X_val = X_train_full.iloc[idx_val_inner]
+        y_train = y_train_full[idx_tr_inner]
+        y_val = y_train_full[idx_val_inner]
 
         pipeline = construire_pipeline(C=C_RETENU)
         pipeline.fit(X_train, y_train)
@@ -85,15 +90,18 @@ def main():
     print(f"=== CV {N_FOLDS}-fold CALIBRÉ + Bootstrap (n_iter={N_BOOTSTRAP}) ===\n")
 
     df = charger_dataset_clean()
+    df_feat = ajouter_features_au_df(df)
     X, y = preparer_donnees(df)
+    groupes = df_feat["conversation_no"].to_numpy()
     y_arr = np.asarray(y)
     classes = sorted(np.unique(y_arr).tolist())
-    print(f"Données : {len(y_arr)} exemples | {len(classes)} classes")
-    print(f"Splits par fold : train 64% / val (calibration) 16% / test 20%\n")
+    print(f"Données : {len(y_arr)} exemples | {len(classes)} classes | "
+          f"{len(np.unique(groupes))} conversations")
+    print(f"Splits par fold (GroupKFold) : train 64% / val (calibration) 16% / test 20%\n")
 
     print("--- CV calibrée par fold ---")
     t1 = time.time()
-    y_pred_oof, f1_folds, betas_par_fold = cv_calibree(X, y, classes)
+    y_pred_oof, f1_folds, betas_par_fold = cv_calibree(X, y, groupes, classes)
     print(f"\nMoyenne ± std : {f1_folds.mean():.4f} ± {f1_folds.std():.4f}")
     print(f"(temps CV : {time.time()-t1:.1f}s)")
 
@@ -122,7 +130,7 @@ def main():
             "n_bootstrap": N_BOOTSTRAP,
             "seed": SEED,
             "calibration_par_fold": True,
-            "splits": "train 64% / val 16% / test 20%",
+            "splits": "train 64% / val 16% / test 20% — GroupKFold + GroupShuffleSplit (par conversation)",
         },
         "cv_f1_macro": {
             "scores": [float(s) for s in f1_folds],

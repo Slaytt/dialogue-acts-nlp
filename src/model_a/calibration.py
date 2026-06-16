@@ -12,29 +12,23 @@ from sklearn.metrics import (
     classification_report,
     f1_score,
 )
-from sklearn.model_selection import train_test_split
 
 from src.model_a.evaluate import sauvegarder_matrice_confusion
-from src.model_a.train_classifier import construire_pipeline
+from src.model_a.train_classifier import construire_pipeline, obtenir_splits
 from src.preprocessing.cache_dataset import charger_dataset_clean
-from src.preprocessing.features import NOMS_FEATURES, ajouter_features_au_df
+from src.preprocessing.features import NOMS_FEATURES
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DOSSIER_SORTIE = os.path.join(RACINE, "resultats", "model_a")
 
 
-def split_train_val_test(df, noms_features):
-    df = ajouter_features_au_df(df)
-    X = df[["texte_nettoye"] + noms_features]
-    y = df["macro_classe"]
-
-    X_tr_full, X_test, y_tr_full, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
+def split_train_val_test(df, noms_features=None):
+    """Split par conversation 64/16/20 (cf. src/preprocessing/splits.py)."""
+    s = obtenir_splits(df, avec_val=True)
+    return (
+        s["X_train"], s["X_val"], s["X_test"],
+        s["y_train"], s["y_val"], s["y_test"],
     )
-    X_train, X_val, y_train, y_val = train_test_split(
-        X_tr_full, y_tr_full, test_size=0.2, random_state=42, stratify=y_tr_full
-    )
-    return X_train, X_val, X_test, y_train, y_val, y_test
 
 
 def calibrer(scores_val, y_val, classes, n_passes=3, pas=0.05, beta_min=-1.0, beta_max=1.0):

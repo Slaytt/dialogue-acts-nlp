@@ -48,6 +48,80 @@ def extraire_features(texte_brut):
     }
 
 
+# --- Features POS (mode impératif) -----------------------------------------
+# Calculées via le tagger spaCy (pas le parser) sur le texte CASÉ, après strip
+# des marqueurs SWDA. Conçues à partir de l'analyse d'erreurs ORDRE (2026-06-08) :
+#   feat_imperatif_2p : impératif 2e personne (verbe base en tête, pas de sujet)
+#                       → généralise les impératifs nus que feat_verbe_action ratait.
+#   feat_hortatif_1p  : hortatif 1re personne (let me / let's) → isole le motif qui
+#                       plombait la précision (le SVM lui donne sa propre coordonnée).
+
+# Marqueurs de discours sautés en tête pour atteindre le vrai début de l'énoncé.
+# N'inclut PAS les pronoms sujets (leur présence signale justement un non-impératif).
+MARQUEURS_DISCOURS = {
+    "well", "now", "so", "just", "please", "actually", "anyway", "like",
+    "see", "oh", "yeah", "okay", "ok", "um", "uh", "hey", "right", "and",
+    "but", "or",
+}
+PRONOMS_SUJET = {"you", "we", "they", "i", "he", "she", "it"}
+
+
+def classifie_imperatif(doc):
+    """(feat_imperatif_2p, feat_hortatif_1p) pour un Doc spaCy taggé."""
+    toks = [t for t in doc if not t.is_space and t.text.strip()]
+    i = 0
+    while i < len(toks) and (
+        toks[i].pos_ in {"PUNCT", "CCONJ", "INTJ", "SPACE", "SYM"}
+        or toks[i].lower_ in MARQUEURS_DISCOURS
+    ):
+        i += 1
+    if i >= len(toks):
+        return 0, 0
+    head = toks[i]
+    nxt = toks[i + 1] if i + 1 < len(toks) else None
+
+    # Hortatif 1re personne : let me / let's / let us / lets
+    if head.lower_ == "lets":
+        return 0, 1
+    if head.lower_ == "let" and nxt is not None and nxt.lower_ in {"me", "us", "'s"}:
+        return 0, 1
+
+    # Question avec do-support ("do you ...", "does he ...") → pas un impératif
+    if head.lemma_ == "do" and nxt is not None and nxt.lower_ in PRONOMS_SUJET:
+        return 0, 0
+
+    # Impératif : 1er token de contenu = verbe forme base (VB) → aucun sujet devant
+    if head.tag_ == "VB":
+        return 1, 0
+    return 0, 0
+
+
+def _charger_tagger():
+    import spacy
+    if not hasattr(_charger_tagger, "_nlp"):
+        _charger_tagger._nlp = spacy.load(
+            "en_core_web_sm", disable=["parser", "ner", "lemmatizer"]
+        )
+    return _charger_tagger._nlp
+
+
+def ajouter_features_pos(df, nlp=None):
+    """Ajoute feat_imperatif_2p / feat_hortatif_1p via le tagger spaCy.
+    Coûteux (un passage tagger par énoncé) → à précalculer dans le cache."""
+    df = df.copy()
+    if nlp is None:
+        nlp = _charger_tagger()
+    textes = [nettoyer_marqueurs_swda(str(t)) for t in df["text"]]
+    imp, hort = [], []
+    for d in nlp.pipe(textes, batch_size=256):
+        a, b = classifie_imperatif(d)
+        imp.append(a)
+        hort.append(b)
+    df["feat_imperatif_2p"] = imp
+    df["feat_hortatif_1p"] = hort
+    return df
+
+
 # Ordre fixe pour rester cohérent avec le ColumnTransformer
 NOMS_FEATURES = [
     "contient_point_interrogation",
@@ -60,6 +134,8 @@ NOMS_FEATURES = [
     "feat_negation",
     "feat_mais",
     "feat_politesse",
+    "feat_imperatif_2p",
+    "feat_hortatif_1p",
 ]
 
 
@@ -69,7 +145,11 @@ def ajouter_features_au_df(df):
         lambda x: 1 if "?" in str(x) else 0
     )
     feats = df["text"].apply(extraire_features).apply(pd.Series)
-    return pd.concat([df, feats], axis=1)
+    df = pd.concat([df, feats], axis=1)
+    # Features POS : viennent du cache si présentes, sinon calculées à la volée.
+    if "feat_imperatif_2p" not in df.columns or "feat_hortatif_1p" not in df.columns:
+        df = ajouter_features_pos(df)
+    return df
 
 
 if __name__ == "__main__":

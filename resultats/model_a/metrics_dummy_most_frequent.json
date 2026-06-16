@@ -1,8 +1,8 @@
 {
   "run": "dummy_most_frequent",
-  "accuracy": 0.4291843220338983,
-  "f1_macro": 0.06673337533508752,
-  "f1_weighted": 0.25776826605200887,
+  "accuracy": 0.4321716924188098,
+  "f1_macro": 0.06705770989555504,
+  "f1_weighted": 0.26082399577762433,
   "f1_par_classe": {
     "ACCORD": 0.0,
     "AUTRE_DIALOGUE": 0.0,
@@ -12,6 +12,6 @@
     "ORDRE": 0.0,
     "POLITESSE": 0.0,
     "QUESTION": 0.0,
-    "STATEMENT": 0.6006003780157877
+    "STATEMENT": 0.6035193890599954
   }
 }

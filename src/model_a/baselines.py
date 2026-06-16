@@ -1,5 +1,5 @@
 # Trois baselines pour comparer LinearSVC : Dummy(most_frequent), Dummy(stratified), LogReg.
-# Mêmes 80/20 stratifié et même preprocessing TF-IDF + ? que le pipeline principal.
+# Split au niveau conversation (80/20), même test set que le pipeline principal.
 
 import json
 import os
@@ -9,23 +9,30 @@ from sklearn.dummy import DummyClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, f1_score
-from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 
 from src.preprocessing.cache_dataset import charger_dataset_clean
+from src.preprocessing.splits import split_par_conversation
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DOSSIER_SORTIE = os.path.join(RACINE, "resultats", "model_a")
 
 
 def preparer_split(df):
+    """Split par conversation, même test set (223 conv) que les autres modèles.
+    On utilise le découpage 64/16/20 et on prend train (713 conv) — pas de val
+    pour les baselines (pas d'hyperparamètre à tuner), parité de données train
+    avec le modèle calibré final."""
     df = df.copy()
     df["contient_point_interrogation"] = df["text"].apply(
         lambda x: 1 if "?" in str(x) else 0
     )
-    X = df[["texte_nettoye", "contient_point_interrogation"]]
-    y = df["macro_classe"]
-    return train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    df_tr, _df_va, df_te = split_par_conversation(df, val_size=0.2)
+    cols_X = ["texte_nettoye", "contient_point_interrogation"]
+    return (
+        df_tr[cols_X], df_te[cols_X],
+        df_tr["macro_classe"], df_te["macro_classe"],
+    )
 
 
 def construire_preprocesseur():

@@ -17,6 +17,7 @@ import ast
 import os
 import re
 import sys
+import numpy as np
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -25,6 +26,11 @@ from preprocessing.load_cornell import telecharger_cornell, parser_fichier_corne
 SEED = 42
 N_MAIN = 1000
 N_ORDERS = 150
+
+# Annotation : 3 annotateurs, bloc de recouvrement annoté par les 3 (pour le
+# Krippendorff's α / Fleiss' κ), reste réparti en simple annotation.
+NOMS_ANNOTATEURS = ["A", "B", "C"]
+N_OVERLAP = 200
 DECENNIES = [1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000]
 LONGUEUR_MIN_TOKENS = 3
 LONGUEUR_MAX_TOKENS = 60
@@ -218,29 +224,77 @@ def echantillonner_ordres(df, deja_pris_line_ids, seed=SEED):
     return out
 
 
-def ecrire_csvs(df_main, df_orders, dossier_sortie):
+def ecrire_kit_annotation(df_main, df_orders, dossier_sortie, seed=SEED):
+    """Produit le kit d'annotation AVEUGLE pour 3 annotateurs.
+
+    Décisions méthodo (cf. note protocole 2026-06-16) :
+    - Les deux sets (principal + ordres) sont FUSIONNÉS et mélangés : l'annotateur
+      ne doit pas savoir qu'une réplique vient du set 'ordres' (sinon sur-étiquetage
+      ORDRE → précision gonflée). On garde source_set seulement dans metadata.csv.
+    - Ré-identification neutre (U####) : les préfixes M****/O**** trahiraient le
+      source_set, on les masque et on garde le mapping dans metadata.
+    - Aveugle total sur les variables d'analyse : genre, film, année, noms → tout
+      dans metadata.csv, jamais dans les fichiers d'annotation.
+    - Bloc de recouvrement (N_OVERLAP) annoté par les 3 → base du Krippendorff's α.
+
+    Sorties dans dossier_sortie/ :
+      - annotation_A.csv / _B.csv / _C.csv : aveugles (id_aveugle, contexte_avant,
+        texte, contexte_apres, label, confiance_1_3, notes)
+      - metadata.csv : à joindre APRÈS annotation via id_aveugle (orig_id, source_set,
+        bloc, annotateur, genres, film, année, décennie...)
+    """
     os.makedirs(dossier_sortie, exist_ok=True)
 
-    cols_aveugle = ["annotation_id", "contexte_avant", "text", "contexte_apres"]
-    cols_vides = ["label", "confiance_1_3", "notes"]
-
-    for nom, df in [("annotation_main", df_main), ("annotation_orders", df_orders)]:
-        out = df[cols_aveugle].rename(columns={"text": "texte"}).copy()
-        for c in cols_vides:
-            out[c] = ""
-        chemin = os.path.join(dossier_sortie, f"{nom}.csv")
-        out.to_csv(chemin, index=False, encoding="utf-8")
-        print(f"  → {chemin} ({len(out)} lignes)")
-
-    cols_meta = [
+    cols_pool = [
         "annotation_id", "source_set", "line_id", "conv_id", "position",
         "perso_emetteur", "genre_emetteur", "perso_recepteur", "genre_recepteur",
         "movie_id", "movie_title", "movie_year", "decennie", "n_tokens",
+        "contexte_avant", "text", "contexte_apres",
     ]
-    df_meta = pd.concat([df_main[cols_meta], df_orders[cols_meta]], ignore_index=True)
+    pool = pd.concat([df_main[cols_pool], df_orders[cols_pool]], ignore_index=True)
+
+    # Mélange + identifiant neutre (masque le source_set encodé dans M****/O****).
+    pool = pool.sample(frac=1.0, random_state=seed).reset_index(drop=True)
+    pool["id_aveugle"] = [f"U{i:04d}" for i in range(len(pool))]
+
+    # Affectation : N_OVERLAP premières répliques = recouvrement (les 3 annotateurs),
+    # le reste réparti équitablement entre annotateurs (simple annotation).
+    overlap = pool.iloc[:N_OVERLAP].copy()
+    reste = pool.iloc[N_OVERLAP:].copy()
+    parts = np.array_split(reste, len(NOMS_ANNOTATEURS))
+
+    pool["bloc"] = "unique"
+    pool.loc[pool["id_aveugle"].isin(overlap["id_aveugle"]), "bloc"] = "overlap"
+    pool["annotateur"] = ""
+
+    cols_aveugle = ["id_aveugle", "contexte_avant", "texte", "contexte_apres"]
+    cols_vides = ["label", "confiance_1_3", "notes"]
+
+    for nom, part in zip(NOMS_ANNOTATEURS, parts):
+        pool.loc[pool["id_aveugle"].isin(part["id_aveugle"]), "annotateur"] = nom
+        # Fichier annotateur = sa part unique + le recouvrement, re-mélangés
+        # (il ne doit pas repérer quelles répliques sont le recouvrement).
+        bloc = pd.concat([part, overlap], ignore_index=True)
+        bloc = bloc.sample(frac=1.0, random_state=seed).reset_index(drop=True)
+        out = bloc.rename(columns={"text": "texte"})[
+            ["id_aveugle", "contexte_avant", "texte", "contexte_apres"]
+        ].copy()
+        for c in cols_vides:
+            out[c] = ""
+        chemin = os.path.join(dossier_sortie, f"annotation_{nom}.csv")
+        out.to_csv(chemin, index=False, encoding="utf-8")
+        print(f"  → {chemin} ({len(out)} lignes : {len(part)} uniques + {len(overlap)} recouvrement)")
+
+    cols_meta = [
+        "id_aveugle", "orig_id", "source_set", "bloc", "annotateur",
+        "line_id", "conv_id", "position", "perso_emetteur", "genre_emetteur",
+        "perso_recepteur", "genre_recepteur", "movie_id", "movie_title",
+        "movie_year", "decennie", "n_tokens",
+    ]
+    meta = pool.rename(columns={"annotation_id": "orig_id"})[cols_meta]
     chemin_meta = os.path.join(dossier_sortie, "metadata.csv")
-    df_meta.to_csv(chemin_meta, index=False, encoding="utf-8")
-    print(f"  → {chemin_meta} ({len(df_meta)} lignes)")
+    meta.to_csv(chemin_meta, index=False, encoding="utf-8")
+    print(f"  → {chemin_meta} ({len(meta)} lignes — source_set/genre/film cachés ici)")
 
 
 def afficher_resume(df_main, df_orders):
@@ -270,8 +324,8 @@ def main():
     print(f"  → {len(df_orders)} répliques tirées")
 
     dossier_sortie = os.path.join(os.path.dirname(__file__), "..", "..", "data", "annotation")
-    print("\n=== Écriture CSV ===")
-    ecrire_csvs(df_main, df_orders, dossier_sortie)
+    print("\n=== Écriture du kit d'annotation (3 annotateurs, aveugle) ===")
+    ecrire_kit_annotation(df_main, df_orders, dossier_sortie)
 
     afficher_resume(df_main, df_orders)
 
